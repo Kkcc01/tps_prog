@@ -1,0 +1,5 @@
+project Default is
+    for Source_Dirs use ("src");
+    for Object_Dir use "obj";
+    for Main use ("main.adb", "tableaux1.adb", "tableaux2.adb", "tableaux3.adb", "tableaux4.adb", "tableaux5.adb");
+end Default;

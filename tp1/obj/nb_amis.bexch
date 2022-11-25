@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__nb_amis.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/tp1.gpr
+20221125193530 03d451dd275e9bc755e0019e6c1da49d
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/nb_amis.o
+[GENERATED SOURCE FILES]
+b__nb_amis.ads
+b__nb_amis.adb
+b__nb_amis.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/
+-L/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

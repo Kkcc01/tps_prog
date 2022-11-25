@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__nb_parfaits.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/tp1.gpr
+20221125190836 76b4977518587e88295bcdc353610db3
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/nb_parfaits.o
+[GENERATED SOURCE FILES]
+b__nb_parfaits.ads
+b__nb_parfaits.adb
+b__nb_parfaits.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/
+-L/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

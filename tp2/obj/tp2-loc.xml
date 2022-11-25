@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp2/tp2.gpr</vfs_file>
+    <file_marker column=" 29" line=" 4" >
+      <vfs_project />
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp2/tp2.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 53" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp2/tp2.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp2/src/drone.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 22" line=" 17" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp2/tp2.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp2/src/jeu_devin.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

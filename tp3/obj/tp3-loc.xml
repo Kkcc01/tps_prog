@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/tableaux1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 14" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/tableaux1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/tableaux2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/tableaux3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/tableaux4.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp3/src/tableaux5.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

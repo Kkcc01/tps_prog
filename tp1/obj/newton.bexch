@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__newton.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/tp1.gpr
+20221125183731 b2971b1a56d662f39e377b52e0ef71ce
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/obj/newton.o
+[GENERATED SOURCE FILES]
+b__newton.ads
+b__newton.adb
+b__newton.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/obj/
+-L/home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

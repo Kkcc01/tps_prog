@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__tableaux1.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp3/tp3.gpr
+20221125205232 1e12309caa55e06f54bc34ec97d1e6d9
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp3/obj/tableaux1.o
+[GENERATED SOURCE FILES]
+b__tableaux1.ads
+b__tableaux1.adb
+b__tableaux1.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp3/obj/
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp3/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

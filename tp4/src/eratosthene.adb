@@ -3,26 +3,27 @@ with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 procedure eratosthene is
     -- déclaration des variables
-    a1, a0 : Float;  -- le résultat
-    k : Natural;     -- le rang de l'approximation
-    x : Float;       -- le nombre réel dont on cherche la racine
-    d : Float;      -- (a1 - a0) que l'on va comparer à epsilon
-    e : Float;       -- espilon : le nombre auquel il faut comparer d
+   N : Natural;
+   NMAX : constant INTEGER := N; -- Indice maximum du tableau
+   TYPE TAB_ENTIERS is ARRAY(1..NMAX) of INTEGER;
+   un_tab : TAB_ENTIERS; -- un tableau d'au maximum NMAX entiers
+   nb_elements : INTEGER; --le nombre efefctif d'élements
+
 begin
-    Put("le nombre réel est x =");
-    get(x);
-    Put("epislon est e =");
-    get(e);
-    -- boucle pour le calcul
-    k := 0;
-    a0 := 1.0;
-    loop
-        k := k + 1;
-        a1 := 0.5 * (a0 + x/a0);
-        d := abs(a1-a0);
-        a0 := a1;
-        Exit when d < e;
-    End loop;
-    Put_line(Float'Image(a1) & "est la" & Integer'Image(k));
-    Put_line("ième approximation de la racine carrée de" & Float'Image(x));
+   Put("le nombre N =");
+   get(N);
+   -- boucle pour le tableau
+   for i in 1..N loop
+      un_tab(i) := i;
+   end loop;
+   for i in 1..N loop
+      for j in 2..N loop
+         if un_tab(i) mod j = 0 then
+            un_tab(i) := 0;
+         end if;
+      end loop;
+   end loop;
+   for i in 1..nb_elements loop
+      Put(un_tab(i)); -- Affichage du tableau
+   end loop;
 end eratosthene;

@@ -1,0 +1,8 @@
+binaires.adb:12:30: error: subtype mark required in this context
+binaires.adb:12:30: error: found "tab" declared at line 7
+binaires.adb:22:30: error: subtype mark required in this context
+binaires.adb:22:30: error: found "n" declared at line 6
+binaires.adb:30:49: error: subtype mark required in this context
+binaires.adb:30:49: error: found "s" declared at line 8
+binaires.adb:39:52: error: subtype mark required in this context
+binaires.adb:39:52: error: found "res" declared at line 7

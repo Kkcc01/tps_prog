@@ -1,0 +1,1 @@
+eratosthene.adb:8:33: warning: "N" may be referenced before it has a value [enabled by default]

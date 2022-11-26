@@ -1,0 +1,23 @@
+R0 : Calculer et afficher les nombres premiers compris entre 2 et N lu au clavier en utilisant la méthode du crible d'Eratosthène
+
+R1 : Comment calculer et afficher les nombres premiers compris entre 2 et N lu au clavier en utilisant la méthode du crible d'Eratosthène ?
+    - Récupérer N au clavier
+    - Mettre dans un tableau tous les nombres entiers compris entre 2 et N
+    - Effacer du tableau tous les multiples de i sauf i (i compris entre 2 et N)
+    - Afficher le tableau
+
+R2 :
+Comment récupérer N au clavier ?
+    Ecrire("Le nombre N (>= 2) = ")
+    Lire N
+Comment mettre dans un tableau tous les nombres entiers compris entre 2 et N ?
+    Pour i allant de 2 à N faire
+        un_tab(i) = i
+Comment afficher le tableau ?
+    Pour i allant de 2 à N faire
+        Ecrire(un_tab(i))
+Comment effacer du tableau tous les multiples de k sauf k (k compris entre 2 et N) ?
+    Pour i allant de 2 à N faire
+        Pour k allant de 2 à N faire
+            Si i%k = 0 et i!=k alors
+                un_tab(i) = 0

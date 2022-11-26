@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__string_replace.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp5/tp5.gpr
+20221126125604 21cae854739c720dfdcaf70515da3efc
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp5/obj/string_replace.o
+[GENERATED SOURCE FILES]
+b__string_replace.ads
+b__string_replace.adb
+b__string_replace.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp5/obj/
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp5/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

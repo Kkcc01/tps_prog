@@ -1,0 +1,7 @@
+Programme pour afficher
+R0 : Afficher le tableau
+R1 : Comment afficher le tableau de valeurs ?
+	- Afficher le contenu des teux tableaux (booléens et valeurs) entre l'indice minimum et l'indice maximum
+        - Afficher les valeurs significatives du tableau avec le nombre effectif de valeurs
+R2 :
+Comment afficher les valeurs significatives du tableau avec le nombre d'effctif de valeurs ?

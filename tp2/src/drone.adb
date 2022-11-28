@@ -10,7 +10,7 @@ begin
     on := 0;
     y := 0;
     loop
-        Put("Que faire : (d)émarrer (m)onter de(s)cendre (q)uitter? ");
+        Put("Que faire : (d)emarrer (m)onter de(s)cendre (q)uitter? ");
         Get(instruction);
         case instruction is
             when 'd' =>

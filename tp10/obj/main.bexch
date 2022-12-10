@@ -4,6 +4,8 @@ b__main.o
 /home/kaycee/n7/cours/1A/programmation/tp/tp10/tp10.gpr
 20221207082705 2edf017e52118c83250811ad1798fe6b
 [BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/pointeur2.o
+/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/pointeur_un.o
 /home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/main.o
 [GENERATED SOURCE FILES]
 b__main.ads

@@ -1,5 +1,4 @@
 V "GNAT Lib v2021"
-M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
@@ -7,16 +6,23 @@ P ZX
 
 RN
 RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		5de9990d NE OO SU
+U pointeur_un%b		pointeur_un.adb		54303eed NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-W pointeur2%s		pointeur2.adb		pointeur2.ali
-W pointeur_un%s		pointeur_un.adb		pointeur_un.ali
+
+U pointeur_un%s		pointeur_un.ads		4a553a8f EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
 
 D ada.ads		20210520051130 76789da1 ada%s
 D a-except.ads		20210520051127 946f3014 ada.exceptions%s
@@ -34,9 +40,8 @@ D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D main.adb		20221210161741 ec43f7b9 main%b
-D pointeur2.ads		20221210161225 fbff543b pointeur2%s
 D pointeur_un.ads	20221210153302 f36021e6 pointeur_un%s
+D pointeur_un.adb	20221210153302 1e650462 pointeur_un%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -54,26 +59,24 @@ D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 7 11 none]
-G r c none [main standard 7 11 none] [initialiser pointeur2 13 14 none]
-G r c none [main standard 7 11 none] [modifier pointeur2 21 14 none]
-G r c none [main standard 7 11 none] [afficher pointeur2 17 14 none]
+G c Z s b [pointe pointeur_un 9 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 17|1r6 1r23 2r6 2r31 3r6 3r29
+16K9*Ada 20e8 17|1r6 1r23 2r6 2r31 3r6 3r29 18|1r6 1r23 2r6 2r31 3r6 3r29
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 17|3w10 3r33
+20K13*Float_Text_IO[12|46] 17|3w10 3r33 18|3w10 3r33
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 17|2w10 2r35
+18K13*Integer_Text_IO[13|46] 17|2w10 2r35 18|2w10 2r35
 X 11 a-textio.ads
-58K13*Text_IO 725e16 17|1w10 1r27
-X 17 main.adb
-7U11*Main 7b11 16l5 16t9
-X 18 pointeur2.ads
-5K9*pointeur2 17|5w6 5r21 18|24e14
-11r4*une_matiere{7R9} 17|12m25 12r25 13m13 13r13 14r13
-13U14*initialiser 17|12s4
-17U14*afficher 17|14s4
-21U14*modifier 17|13s4
-X 19 pointeur_un.ads
-5K9*pointeur_un 17|4w6 4r23 19|12e16
+58K13*Text_IO 725e16 17|1w10 1r27 18|1w10 1r27
+506U14*Put_Line 18|9s7
+X 13 a-tiinio.ads
+59U14*Get 18|10s7[4|18]
+80U14*Put 18|8s7[4|18] 12s7[4|18]
+X 17 pointeur_un.ads
+5K9*pointeur_un 12l5 12e16 18|5b14 14l5 14t16
+6P9*PINT(integer) 7r8 9r28 18|6r28
+7p4*p{6P9}
+8i4*x{integer} 18|10m11 11r16
+9U14*pointe 9>21 18|6b14 13l8 13t14
+9p21 p{6P9} 18|6b21 8r11 11r7 12r11
 

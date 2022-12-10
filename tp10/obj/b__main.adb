@@ -31,6 +31,8 @@ package body ada_main is
    E119 : Short_Integer; pragma Import (Ada, E119, "ada__finalization_E");
    E118 : Short_Integer; pragma Import (Ada, E118, "system__file_io_E");
    E094 : Short_Integer; pragma Import (Ada, E094, "ada__text_io_E");
+   E160 : Short_Integer; pragma Import (Ada, E160, "pointeur2_E");
+   E162 : Short_Integer; pragma Import (Ada, E162, "pointeur_un_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -208,6 +210,9 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E094 := E094 + 1;
+      pointeur2'elab_spec;
+      E160 := E160 + 1;
+      E162 := E162 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -245,6 +250,8 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
+   --   /home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/pointeur2.o
+   --   /home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/pointeur_un.o
    --   /home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/main.o
    --   -L/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/
    --   -L/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/

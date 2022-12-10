@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#e62fd7de#;
+   u00001 : constant Version_32 := 16#5de9990d#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -356,10 +356,18 @@ package ada_main is
    pragma Export (C, u00157, "system__val_llliS");
    u00158 : constant Version_32 := 16#750441df#;
    pragma Export (C, u00158, "system__val_llluS");
-   u00159 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00159, "system__memoryB");
-   u00160 : constant Version_32 := 16#fba7f029#;
-   pragma Export (C, u00160, "system__memoryS");
+   u00159 : constant Version_32 := 16#fea92e72#;
+   pragma Export (C, u00159, "pointeur2B");
+   u00160 : constant Version_32 := 16#42ca4f52#;
+   pragma Export (C, u00160, "pointeur2S");
+   u00161 : constant Version_32 := 16#54303eed#;
+   pragma Export (C, u00161, "pointeur_unB");
+   u00162 : constant Version_32 := 16#4a553a8f#;
+   pragma Export (C, u00162, "pointeur_unS");
+   u00163 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00163, "system__memoryB");
+   u00164 : constant Version_32 := 16#fba7f029#;
+   pragma Export (C, u00164, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -521,6 +529,10 @@ package ada_main is
    --  ada.float_text_io%b
    --  ada.integer_text_io%s
    --  ada.integer_text_io%b
+   --  pointeur2%s
+   --  pointeur2%b
+   --  pointeur_un%s
+   --  pointeur_un%b
    --  main%b
    --  END ELABORATION ORDER
 

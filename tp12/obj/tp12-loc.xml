@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/liste_chaine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/listes_chaines.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 5" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/listes_chaines.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/listes_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 13" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 4" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 4" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 5" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 62" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 18" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 16" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 10" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 17" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 39" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 18" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 19" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 18" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 63" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 98" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 58" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 64" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 59" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 10" line=" 66" >
+      <vfs_project>/home/kaycee/n7/cours/1A/programmation/tp/tp12/tp12.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/programmation/tp/tp12/src/liste_chaine.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

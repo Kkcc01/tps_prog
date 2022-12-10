@@ -5,19 +5,23 @@ A -march=x86-64
 P ZX
 
 RN
-RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ALLOCATORS
 RV NO_IO
+RV NO_LOCAL_ALLOCATORS
 RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U recursif1%b		recursif1.adb		39087003 NE OO PK IL
+U liste_chaine%b	liste_chaine.adb	1b7d5e8e NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U recursif1%s		recursif1.ads		25bf7544 EE NE OO PK IL
+U liste_chaine%s	liste_chaine.ads	5bf671da EE NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -40,12 +44,14 @@ D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D recursif1.ads		20221207082554 9c8a6e2d recursif1%s
-D recursif1.adb		20221207082517 1cb70547 recursif1%b
+D liste_chaine.ads	20221210183808 e2c36ab3 liste_chaine%s
+D liste_chaine.adb	20221210184119 408b2f54 liste_chaine%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051132 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051132 bdb6f5ec system.img_int%s
 D s-parame.ads		20210520051133 4752c4cb system.parameters%s
 D s-putima.ads		20210520051133 4e095881 system.put_images%s
 D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
@@ -59,38 +65,42 @@ D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [afficher_d_g recursif1 10 14 none]
-G c Z s b [afficher_g_d recursif1 13 14 none]
-G c Z s b [indice recursif1 15 13 none]
-G c Z s s [Ttab_entiersBIP recursif1 8 4 none]
+G c Z s b [creer_liste_vide liste_chaine 14 13 none]
+G c Z s b [est_vide liste_chaine 20 13 none]
+G c Z s b [inserer_en_tete liste_chaine 27 14 none]
+G c Z s b [afficher_liste liste_chaine 34 14 none]
+G c Z s b [rechercher liste_chaine 41 13 none]
+G c Z s s [celluleIP liste_chaine 9 9 none]
 X 1 ada.ads
-16K9*Ada 20e8 17|1r6 1r23 2r6 2r31 3r6 3r29 18|1r6 1r23 2r6 2r31 3r6 3r29
+16K9*Ada 20e8 17|1r6 1r23 2r6 2r29 3r6 3r31 18|1r6 1r23 2r6 2r29 3r6 3r31
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 17|3w10 3r33 18|3w10 3r33
+20K13*Float_Text_IO[12|46] 17|2w10 2r33 18|2w10 2r33
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 17|2w10 2r35 18|2w10 2r35
+18K13*Integer_Text_IO[13|46] 17|3w10 3r35 18|3w10 3r35
 X 11 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 1r27 18|1w10 1r27
-506U14*Put_Line 18|21s10 33s10
-X 13 a-tiinio.ads
-80U14*Put 18|12s16[4|18] 30s10[4|18]
-X 17 recursif1.ads
-5K9*recursif1 16l5 16e14 18|5b14 56l5 56t14
-7i4*NMAX{integer} 8r33
-8A9*TAB_ENTIERS(integer)<integer> 10r39 13r40 15r33 18|7r40 26r40 38r33
-10U14*afficher_d_g 10>27 10>52 10>73 18|7b14 13s16 23l8 23t20
-10a27 un_tab{8A9} 18|7b28 12r20 13r29
-10i52 taille{integer} 18|7b53 9r19 11r24 13r37
-10i73 index{integer} 18|7b74 9r10 10r13 11r16 12r27 13r48
-13U14*afficher_g_d 13>28 13>53 13>74 18|26b14 31s10 35l8 35t20
-13a28 un_tab{8A9} 18|26b28 30r14 31r23
-13i53 taille{integer} 18|26b53 28r19 31r31
-13i74 index{integer} 18|26b74 28r10 28r30 30r21 31r39
-15V13*indice{integer} 15>21 15>46 15>67 18|38b13 46s19 53l8 53t14
-15a21 un_tab{8A9} 18|38b21 42r14 46r26
-15i46 taille{integer} 18|38b46 42r21 43r19 46r34
-15i67 x{integer} 18|38b67 42r10 46r46
-X 18 recursif1.adb
-39b7 presence{boolean} 44m10 47m10 49r10
-40i7 index{integer} 43m10 46m10 50m10 52r14
+506U14*Put_Line 18|42s10
+X 17 liste_chaine.ads
+5K9*liste_chaine 68l5 68e17 18|5b14 71l5 71t17
+7R9*cellule 8r25 9c9 12e14 18|10r24 29r27
+8P9*liste(7R9) 11r17 14r37 20r38 27r50 34r45 41r40 41r70 18|7r37 8r19 16r38
+. 26r50 37r45 49r40 49r70 51r17 52r20
+10i7*valeur{integer} 18|30m20 32m20 42r43 59r27
+11p7*suivant{8P9} 18|43r35 64r38
+14V13*creer_liste_vide{8P9} 18|7b13 13l8 13t24
+20V13*est_vide{boolean} 20>23 18|16b13 23l8 23t16
+20p23 une_liste{8P9} 18|16b23 18r10
+27U14*inserer_en_tete 27=31 27>57 18|26b14 34l8 34t23
+27p31 une_liste{8P9} 18|26b31 28r10 29m10 30r10 32r10
+27i57 n{integer} 18|26b57 30r30 32r30
+34U14*afficher_liste 34>30 18|37b14 43s10 46l8 46t22
+34p30 une_liste{8P9} 18|37b30 39r10 42r33 43r25
+41V13*rechercher{8P9} 41>25 41>47 18|49b13 70l8 70t18
+41p25 une_liste{8P9} 18|49b25 52r29 54r18 55r10
+41i47 e{integer} 18|49b47 59r36
+X 18 liste_chaine.adb
+8p7 une_liste{17|8P9} 10m7 11m7 12r14
+50b7 present{boolean} 60m16 66r13
+51p7 address{17|8P9} 54m7 61r23 63m13
+52p7 temp_liste{17|8P9} 58r16 59r16 63r24 64m13 64r27
 

@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#0f7e714c#;
+   u00001 : constant Version_32 := 16#53238fb7#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -364,10 +364,14 @@ package ada_main is
    pragma Export (C, u00161, "recursif1B");
    u00162 : constant Version_32 := 16#25bf7544#;
    pragma Export (C, u00162, "recursif1S");
-   u00163 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00163, "system__memoryB");
-   u00164 : constant Version_32 := 16#fba7f029#;
-   pragma Export (C, u00164, "system__memoryS");
+   u00163 : constant Version_32 := 16#a8ca8210#;
+   pragma Export (C, u00163, "recursif3B");
+   u00164 : constant Version_32 := 16#526dfe07#;
+   pragma Export (C, u00164, "recursif3S");
+   u00165 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00165, "system__memoryB");
+   u00166 : constant Version_32 := 16#fba7f029#;
+   pragma Export (C, u00166, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -533,6 +537,8 @@ package ada_main is
    --  mc91%b
    --  recursif1%s
    --  recursif1%b
+   --  recursif3%s
+   --  recursif3%b
    --  main%b
    --  END ELABORATION ORDER
 

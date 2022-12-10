@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp10/tp10.gpr
+20221207082705 2edf017e52118c83250811ad1798fe6b
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp10/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

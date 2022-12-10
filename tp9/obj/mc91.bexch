@@ -1,0 +1,22 @@
+[MAPPING FILE]
+/tmp/GNAT-TEMP-000003.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+mc91
+[COMPILER PATH]
+/home/kaycee/opt/GNAT/2021/bin/gcc
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/mc91.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp9/tp9.gpr
+20221129141938 90ce701d0c41c1553cd921d6c246f76b

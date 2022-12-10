@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp9/tp9.gpr
+20221129153636 a0b3a93858b194fc2cf09095694adb7c
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/mc91.o
+/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/recursif1.o
+/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

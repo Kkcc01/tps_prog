@@ -12,7 +12,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U bitmap%b		bitmap.adb		089dee3c NE OO SU IL
+U bitmap%b		bitmap.adb		bd8b4af3 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -35,7 +35,7 @@ D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
 D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
-D bitmap.adb		20221128140826 b1a8f555 bitmap%b
+D bitmap.adb		20221129152920 04be519a bitmap%b
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051134 a2da961d system%s
@@ -72,43 +72,50 @@ X 4 a-inteio.ads
 X 11 a-textio.ads
 58K13*Text_IO 725e16 15|1w10 1r27
 262U14*New_Line 15|28s7 29s7 46s7 47s7
-463U14*Put 15|22s10 23s10 24s10 37s13 38s13 39s13 44s7 56s13 62s10 74s7 76s7
-. 123s7 125s7
+463U14*Put 15|22s10 23s10 24s10 37s13 38s13 39s13 44s7
 506U14*Put_Line 15|17s7 18s7 19s7 25s10 27s7 30s7 31s7 32s7 33s7 40s13 43s7
-. 45s7
+. 45s7 64s7
 X 13 a-tiinio.ads
-59U14*Get 15|75s7[4|18] 77s7[4|18]
-80U14*Put 15|21s10[4|18] 36s13[4|18] 124s7[4|18] 126s7[4|18]
+80U14*Put 15|21s10[4|18] 36s13[4|18]
 X 15 bitmap.adb
-5U11*bitmap 5b11 137l5 137t11
-6i4 NMAX{integer} 7r32 8r33 54r19 113r25
+5U11*bitmap 5b11 177l5 177t11
+6i4 NMAX{integer} 7r32 8r33 56r19 81r35 135r25
 7A9 TAB_VALEUR(float)<integer> 9r14
 8A9 TAB_BOOLEAN(boolean)<integer> 10r15
-9a4 tab_val{7A9} 25r31 40r34 55r17 80m13 80r27 93m13 104m16 115m16
-10a4 tab_bool{8A9} 23r28 35r13 38r31 55r32 69m7 79r13 92r13 94m13 103r16
-. 105m16 114r16 116m16 132m4
-11i4 imin{integer} 75m11 78r24 91r16 102r22 124r11
-11i10 imax{integer} 77m11 78r30 81m13 81r21 91r22 113r19 120m10 120r18 126r11
-12i4 nb_elements{integer} 45r30 122m7 122r22
-15U14 afficher 15b14 15>23 15>39 48l8 48t16 134s4 136s4
-15i23 imin{integer} 20r16 34r16
-15i39 imax{integer} 20r22 34r22
+9a4 tab_val{7A9} 25r31 40r34 57r17 97m16 97r36 114m13 125m16 137m16
+10a4 tab_bool{8A9} 23r28 35r13 38r31 57r32 70m7 90r13 98m16 113r13 115m13
+. 124r16 126m16 136r16 138m16 150m4
+11i4 imin{integer} 20r16 34r16 75r19 76m10 76r18 89r16 112r16 123r22 129m16
+. 129r24
+11i10 imax{integer} 20r22 34r22 72r19 73m10 73r18 86r30 92m13 92r21 112r22
+. 135r19 140m16 140r24
+12i4 nb_elements{integer} 45r30 71m7 71r22 144m7 144r22
+15U14 afficher 15b14 48l8 48t16 156s4 160s4 164s4 169s4 172s4
 20i11 i{integer} 21r14 23r37 25r39
 34i11 i{integer} 35r22 36r17 38r40 40r42
-51U14 chercher 51b14 51>23 64l8 64t16
-51f23 x{float} 55r13
-52b7 presence{boolean} 57m13 61r10
-54i11 i{integer} 55r25 55r41 56r31
-67U14 supprimer 67b14 67>24 70l8 70t17
-67i24 indice{integer} 69r16
-72U14 compacter 72b14 84l8 84t17
-78i11 i{integer} 79r22 80r21 80r35
-86U14 ajouter 86b14 86>22 127l8 127t15 133s4 135s4
-86f22 y{float} 93r27 104r30 115r30
-87b7 cherche_avant{boolean} 96m13 101r10
-88b7 cherche_apres{boolean} 95m13 106m16 111r10
-89b7 quitter{boolean} 92r37 97m13 101r35 107m16 111r35 117m16
-91i11 i{integer} 92r22 93r21 94r22
-102i14 i{integer} 103r25 104r24 105r25
-113i14 i{integer} 114r25 115r24 116r25
+51U14 chercher 51b14 51>23 65l8 65t16 165s4 166s4 170s4
+51f23 x{float} 57r13
+52b7 presence{boolean} 59m13
+53b7 quitter{boolean} 57r55 60m13
+54i7 occurence{integer} 58m13 64r30
+56i11 i{integer} 57r25 57r41 58r26
+68U14 supprimer 68b14 68>24 78l8 78t17 157s4 158s4 159s4 167s4 168s4
+68i24 indice{integer} 70r16 72r10 75r10
+80U14 compacter 80b14 104l8 104t17 171s4
+81A12 TAB_INDICE(integer)<integer> 82r14
+82a7 save{81A12} 91m13 97r24 98r25
+83i7 m{integer} 91r18 93m13 93r18
+84i7 n{integer} 97r29 98r30 99m16 99r21
+85i7 nb_modif{integer} 94m13 94r25 96r16 100m16 100r28
+86i7 temp_imax{integer} 89r22
+89i11 i{integer} 90r22 91r23 97r44
+107U14 ajouter 107b14 107>22 145l8 145t15 151s4 152s4 153s4 154s4 155s4 161s4
+. 162s4 163s4
+107f22 y{float} 114r27 125r30 137r30
+108b7 cherche_avant{boolean} 117m13 122r10 133r55
+109b7 cherche_apres{boolean} 116m13 127m16 133r10
+110b7 quitter{boolean} 113r37 118m13 122r35 124r40 128m16 133r35 136r40 139m16
+112i11 i{integer} 113r22 114r21 115r22
+123i14 i{integer} 124r25 125r24 126r25
+135i14 i{integer} 136r25 137r24 138r25
 

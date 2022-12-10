@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp8/tp8.gpr
+20221128161317 ec1acd88c5b073c80aa044e5d7e3b04a
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp8/obj/ensembles.o
+/home/kaycee/n7/cours/1A/programmation/tp/tp8/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp8/obj/
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp8/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

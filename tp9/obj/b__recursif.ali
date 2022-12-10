@@ -18,12 +18,12 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 
-U ada_main%b		b__bitmap.adb		98b2b866 OO PK IL
+U ada_main%b		b__recursif.adb		c89721d0 OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__bitmap.ads		5751322b EE NE OO PK IL
+U ada_main%s		b__recursif.ads		0a7ec7da EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -31,8 +31,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20210520051130 76789da1 ada%s
 D a-except.ads		20210520051127 946f3014 ada.exceptions%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
-D b__bitmap.ads		20221129152925 29e3d9b6 ada_main%s
-D b__bitmap.adb		20221129152925 253e51c4 ada_main%b
+D b__recursif.ads	20221129153707 74cc2c47 ada_main%s
+D b__recursif.adb	20221129153707 28343d83 ada_main%b
 D system.ads		20210520051134 a2da961d system%s
 D s-parame.ads		20210520051133 4752c4cb system.parameters%s
 D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
@@ -50,7 +50,7 @@ X 1 ada.ads
 16K9*Ada 20e8 5|6r6
 X 2 a-except.ads
 44K13*Exceptions 289e19 5|6w10
-X 4 b__bitmap.ads
+X 4 b__recursif.ads
 6K9*ada_main 527l5 527e13 5|8b14 257l5 257t13
 8i4*gnat_argc{integer} 12m22 12r22 5|233r10 234m10
 9m4*gnat_argv{6|67M9} 13m22 13r22 5|235m10
@@ -240,7 +240,7 @@ X 4 b__bitmap.ads
 357m4*u00158{42M9} 358r22
 359m4*u00159{42M9} 360r22
 361m4*u00160{42M9} 362r22
-X 5 b__bitmap.adb
+X 5 b__recursif.adb
 10i4 E072{short_integer} 10m46 10r46 182m7 182r15
 11i4 E008{short_integer} 11m46 11r46 188m7 188r15
 12i4 E013{short_integer} 12m46 12r46 185m7 185r15
@@ -298,7 +298,7 @@ X 5 b__bitmap.adb
 122p7*Finalize_Library_Objects{82P9} 123m25 123r25 157m7
 124i7*Binder_Sec_Stacks_Count{natural} 125m27 125r27 152m7
 126m7*Default_Sized_SS_Pool{6|67M9} 127m27 127r27 153m7
-213U14 Ada_Main_Program 214b<ada,_ada_bitmap>24 241s7
+213U14 Ada_Main_Program 214b<ada,_ada_recursif>24 241s7
 222U17*Initialize 222>29 223b<c,__gnat_initialize>25 239s7
 222m29 Addr{6|67M9}
 225U17*Finalize 226b<c,__gnat_finalize>25 243s7

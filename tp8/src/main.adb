@@ -7,9 +7,8 @@ procedure Main is
 begin
    e2 := creer;
    ajouter(2, e2);
+   ajouter(3, e2);
    ajouter(4, e2);
-   afficher(e2);
    supprimer(3, e2);
-   supprimer(4, e2);
    afficher(e2);
 end Main;

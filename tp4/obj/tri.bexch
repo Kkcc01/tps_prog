@@ -1,17 +1,17 @@
 [GENERATED OBJECT FILE]
 b__tri.o
 [PROJECT FILES]
-/home/kaycee/n7/cours/1A/programmation/tp/tp4/tp4.gpr
-20221125212218 fcafe6a1987ba9ac3aa3c8613a17a1a7
+/home/kaycee/n7/cours/1A/s1/programmation/tp/tp4/tp4.gpr
+20221125212218 c889c7f3965d0fb9f55fad900f054eb8
 [BOUND OBJECT FILES]
-/home/kaycee/n7/cours/1A/programmation/tp/tp4/obj/tri.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/tp4/obj/tri.o
 [GENERATED SOURCE FILES]
 b__tri.ads
 b__tri.adb
 b__tri.ali
 [RESULTING OPTIONS]
--L/home/kaycee/n7/cours/1A/programmation/tp/tp4/obj/
--L/home/kaycee/n7/cours/1A/programmation/tp/tp4/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp4/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp4/obj/
 -L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
 -static
 -static-libgcc

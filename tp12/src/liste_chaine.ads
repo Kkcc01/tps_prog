@@ -10,6 +10,8 @@ package liste_chaine is
       valeur : Integer;
       suivant : liste;
    end record;
+   liste_vide : exception;
+   element_absent : exception;
 
    function creer_liste_vide return liste;
    -- semantique : créer une liste vide
@@ -52,7 +54,7 @@ package liste_chaine is
    -- exception : data n'est pas dans la liste ou la liste est vide
 
 
-   --procedure inserer_avant (une_liste : in out liste; n : in Integer; data : in Integer);
+   procedure inserer_avant (une_liste : in out liste; n : in Integer; data : in Integer);
    -- semantique : insere dans la liste 1 (liste vide ou non vide), l'élement nouveau avant la valeur data
    -- pre : none
    -- post : n appartient à une_liste

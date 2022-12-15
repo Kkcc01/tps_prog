@@ -9,7 +9,7 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		6224bbaf NE OO SU
+U main%b		main.adb		62a14c58 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -34,7 +34,7 @@ D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D ensembles.ads		20221205105808 0fcf90d8 ensembles%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D main.adb		20221207071800 d4de301e main%b
+D main.adb		20221212104134 d45bc7e9 main%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -55,8 +55,8 @@ G a e
 G c Z b b [main standard 5 11 none]
 G r c none [main standard 5 11 none] [creer ensembles 15 13 none]
 G r c none [main standard 5 11 none] [ajouter ensembles 25 14 none]
-G r c none [main standard 5 11 none] [afficher ensembles 34 14 none]
 G r c none [main standard 5 11 none] [supprimer ensembles 29 14 none]
+G r c none [main standard 5 11 none] [afficher ensembles 34 14 none]
 X 1 ada.ads
 16K9*Ada 20e8 18|1r6 1r23 2r6 2r31 3r6 3r29
 X 3 a-flteio.ads
@@ -69,10 +69,10 @@ X 15 ensembles.ads
 5K9*ensembles 38e14 18|4w6 4r21
 8R9*ensemble 11e14 18|6r9
 15V13*creer{8R9} 18|8s10
-25U14*ajouter 18|9s4 10s4
-29U14*supprimer 18|12s4 13s4
-34U14*afficher 18|11s4 14s4
+25U14*ajouter 18|9s4 10s4 11s4
+29U14*supprimer 18|12s4
+34U14*afficher 18|13s4
 X 18 main.adb
-5U11*Main 5b11 15l5 15t9
-6r4 e2{15|8R9} 8m4 9m15 9r15 10m15 10r15 11r13 12m17 12r17 13m17 13r17 14r13
+5U11*Main 5b11 14l5 14t9
+6r4 e2{15|8R9} 8m4 9m15 9r15 10m15 10r15 11m15 11r15 12m17 12r17 13r13
 

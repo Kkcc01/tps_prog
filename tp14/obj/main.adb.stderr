@@ -1,0 +1,4 @@
+main.adb:24:35: error: "afficher_liste" is not visible
+main.adb:24:35: error: multiple use clauses cause hiding
+main.adb:24:35: error: hidden declaration at liste_gen.ads:36, instance at line 22
+main.adb:24:35: error: hidden declaration at liste_gen.ads:36, instance at line 18

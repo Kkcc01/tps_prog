@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp14/tp14.gpr
+20221212160007 c4a7ed98ad0c18a213b26ea958cb03a8
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/programmation/tp/tp14/obj/liste_gen.o
+/home/kaycee/n7/cours/1A/programmation/tp/tp14/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp14/obj/
+-L/home/kaycee/n7/cours/1A/programmation/tp/tp14/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

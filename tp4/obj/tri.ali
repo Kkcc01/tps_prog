@@ -9,7 +9,7 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U tri%b			tri.adb			8a186396 NE OO SU IL
+U tri%b			tri.adb			33e6098f NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -47,7 +47,7 @@ D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
 D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
-D tri.adb		20221125213736 332d78ff tri%b
+D tri.adb		20221215114728 8ad312e6 tri%b
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z b b [tri standard 4 11 none]
@@ -60,14 +60,15 @@ X 4 a-inteio.ads
 X 11 a-textio.ads
 58K13*Text_IO 725e16 32|1w10 1r27
 X 13 a-tiinio.ads
-80U14*Put 32|20s6[4|18]
+80U14*Put 32|21s7[4|18]
 X 32 tri.adb
-4U11*tri 4b11 22l5 22t8
-5i5 NMAX{integer} 6r33
+4U11*tri 4b11 23l5 23t8
+5i4 NMAX{integer} 6r33
 6A9 TAB_ENTIERS(integer)<integer> 7r13
-7a4 un_tab{6A9} 10m4 13r10 13r23 14r17 15m10 15r25 16m10 20r10
-8i4 nb_elements{integer} 11m4 12r16 19r16
-8i17 mem{integer} 14m10 16r23
-12i8 i{integer} 13r17 13r30 14r24 15r17 15r32 16r17
-19i8 i{integer} 20r17
+7a4 un_tab{6A9} 10m4 14r20 14r33 15r17 16m10 16r25 17m10 21r11
+8i4 nb_elements{integer} 11m4 12r16 20r16
+8i17 mem{integer} 15m10 17r23
+12i8 j{integer} 13r27
+13i11 i{integer} 14r27 14r40 15r24 16r17 16r32 17r17
+20i8 i{integer} 21r18
 

@@ -1,0 +1,110 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ensembles%b		ensembles.adb		428d634a NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U ensembles%s		ensembles.ads		e8a061a1 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051127 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D ensembles.ads		20221212120349 51957ac8 ensembles%s
+D ensembles.adb		20221212120856 aa2d02eb ensembles%b
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051134 a2da961d system%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [creer ensembles 15 13 none]
+G c Z s b [appartient ensembles 20 13 none]
+G c Z s b [ajouter ensembles 25 14 none]
+G c Z s b [supprimer ensembles 29 14 none]
+G c Z s b [afficher ensembles 34 14 none]
+G c Z s s [TelementsBIP ensembles 7 4 none]
+G c Z s s [ensembleIP ensembles 8 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r31 3r6 3r29 16|1r6 1r23 2r6 2r31 3r6 3r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[12|46] 15|3w10 3r33 16|3w10 3r33
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 15|2w10 2r35 16|2w10 2r35
+X 11 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r27 16|1w10 1r27
+262U14*New_Line 16|62s13
+463U14*Put 16|33s13 36s10 66s10
+506U14*Put_Line 16|63s13
+X 13 a-tiinio.ads
+80U14*Put 16|43s10[4|18]
+X 15 ensembles.ads
+5K9*ensembles 38l5 38e14 16|6b14 71l5 71t14
+6i4*NMAX{integer} 7r30 16|29r26
+7A9*elements(integer)<integer> 9r17
+8R9*ensemble 11e14 15r26 20r47 25r49 29r51 34r30 16|8r26 9r11 15r47 26r49
+. 40r30 47r51
+9a7*contenu{7A9} 16|19r15 30m15 43r16 53r21 58m18 58r34
+10i7*cardinal{integer} 16|11m9 18r21 29r15 30r25 31m15 31r29 42r21 50r12
+. 52r27 57r27 60m15 60r29
+12b4*present{boolean}
+15V13*creer{8R9} 16|8b13 13l8 13t13
+20V13*appartient{boolean} 20>24 20>40 16|15b13 24l8 24t18 28s10 51s13
+20i24 x{integer} 16|15b24 19r28
+20r40 e{8R9} 16|15b40 18r19 19r13
+25U14*ajouter 25>22 25=38 16|26b14 38l8 38t15
+25i22 x{integer} 16|26b22 28r21 30r42
+25r38 e{8R9} 16|26b38 28r23 29r13 30m13 30r23 31m13 31r27
+29U14*supprimer 29>24 29=40 16|47b14 68l8 68t17
+29i24 x{integer} 16|47b24 51r24 53r34
+29r40 e{8R9} 16|47b40 50r10 51r27 52r25 53r19 57r25 58m16 58r32 60m13 60r27
+34U14*afficher 34>23 16|40b14 45l8 45t16
+34r23 e{8R9} 16|40b23 42r19 43r14
+X 16 ensembles.adb
+9r7 e{15|8R9} 11m7 12r14
+16b7 present{boolean} 20m13 23r14
+18i11 i{integer} 19r23
+42i11 i{integer} 43r24
+48i7 j{integer} 54m19 57r22
+52i17 i{integer} 53r29 54r24
+57i17 i{integer} 58r26 58r42
+

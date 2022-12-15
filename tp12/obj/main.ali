@@ -11,7 +11,7 @@ RV NO_IO
 RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		287fbca7 NE OO SU
+U main%b		main.adb		2c1aa692 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -35,8 +35,8 @@ D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D liste_chaine.ads	20221210183808 e2c36ab3 liste_chaine%s
-D main.adb		20221210184146 7389cd7d main%b
+D liste_chaine.ads	20221212152700 39b83cb1 liste_chaine%s
+D main.adb		20221213074211 ac97814a main%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -55,11 +55,13 @@ D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z b b [main standard 6 11 none]
-G r c none [main standard 6 11 none] [creer_liste_vide liste_chaine 14 13 none]
-G r c none [main standard 6 11 none] [est_vide liste_chaine 20 13 none]
-G r c none [main standard 6 11 none] [inserer_en_tete liste_chaine 27 14 none]
-G r c none [main standard 6 11 none] [afficher_liste liste_chaine 34 14 none]
-G r c none [main standard 6 11 none] [rechercher liste_chaine 41 13 none]
+G r c none [main standard 6 11 none] [creer_liste_vide liste_chaine 16 13 none]
+G r c none [main standard 6 11 none] [est_vide liste_chaine 22 13 none]
+G r c none [main standard 6 11 none] [inserer_en_tete liste_chaine 29 14 none]
+G r c none [main standard 6 11 none] [inserer_apres liste_chaine 50 14 none]
+G r c none [main standard 6 11 none] [inserer_avant liste_chaine 57 14 none]
+G r c none [main standard 6 11 none] [afficher_liste liste_chaine 36 14 none]
+G r c none [main standard 6 11 none] [enlever liste_chaine 64 14 none]
 X 1 ada.ads
 16K9*Ada 20e8 18|1r6 1r23 2r6 2r29 3r6 3r31
 X 3 a-flteio.ads
@@ -68,18 +70,20 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[13|46] 18|3w10 3r35
 X 11 a-textio.ads
 58K13*Text_IO 725e16 18|1w10 1r27
-506U14*Put_Line 18|13s4 16s4
+506U14*Put_Line 18|12s4
 X 17 liste_chaine.ads
-5K9*liste_chaine 68e17 18|4w6 4r24
-8P9*liste(7R9) 18|7r15 9r12
-14V13*creer_liste_vide{8P9} 18|11s16
-20V13*est_vide{boolean} 18|12s13 15s13
-27U14*inserer_en_tete 18|14s4
-34U14*afficher_liste 18|17s4 19s4
-41V13*rechercher{8P9} 18|18s13
+5K9*liste_chaine 70e17 18|4w6 4r24
+8P9*liste(7R9) 18|7r15
+16V13*creer_liste_vide{8P9} 18|10s16
+22V13*est_vide{boolean} 18|11s13
+29U14*inserer_en_tete 18|13s4
+36U14*afficher_liste 18|17s4 19s4
+50U14*inserer_apres 18|14s4 15s4
+57U14*inserer_avant 18|16s4
+64U14*enlever 18|18s4
 X 18 main.adb
 6U11*Main 6b11 20l5 20t9
-7p4 la_liste{17|8P9} 11m4 12r22 14m20 14r20 15r22 17r19 18r24
-8b4 empty{boolean} 12m4 13r27 15m4 16r27
-9p4 occur{17|8P9} 18m4 19r19
+7p4 la_liste{17|8P9} 10m4 11r22 13m20 13r20 14m18 14r18 15m18 15r18 16m18
+. 16r18 17r19 18m12 18r12 19r19
+8b4 empty{boolean} 11m4 12r27
 

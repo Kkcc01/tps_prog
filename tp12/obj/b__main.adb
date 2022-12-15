@@ -209,6 +209,7 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E094 := E094 + 1;
+      liste_chaine'elab_spec;
       E160 := E160 + 1;
    end adainit;
 

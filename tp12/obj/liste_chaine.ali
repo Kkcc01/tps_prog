@@ -6,27 +6,37 @@ P ZX
 
 RN
 RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
 RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
 RV NO_LOCAL_ALLOCATORS
 RV NO_RECURSION
 RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
 RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
 
-U liste_chaine%b	liste_chaine.adb	1b7d5e8e NE OO PK IL
+U liste_chaine%b	liste_chaine.adb	f338d0a3 NE OO PK IL
 W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U liste_chaine%s	liste_chaine.ads	5bf671da EE NE OO PK IL
+U liste_chaine%s	liste_chaine.ads	808d27d8 EE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 
 D ada.ads		20210520051130 76789da1 ada%s
 D a-except.ads		20210520051127 946f3014 ada.exceptions%s
@@ -42,10 +52,11 @@ D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
 D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D liste_chaine.ads	20221210183808 e2c36ab3 liste_chaine%s
-D liste_chaine.adb	20221210184119 408b2f54 liste_chaine%b
+D liste_chaine.ads	20221212152700 39b83cb1 liste_chaine%s
+D liste_chaine.adb	20221213074159 b01d5b1e liste_chaine%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -65,42 +76,74 @@ D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [creer_liste_vide liste_chaine 14 13 none]
-G c Z s b [est_vide liste_chaine 20 13 none]
-G c Z s b [inserer_en_tete liste_chaine 27 14 none]
-G c Z s b [afficher_liste liste_chaine 34 14 none]
-G c Z s b [rechercher liste_chaine 41 13 none]
+G c Z s b [creer_liste_vide liste_chaine 16 13 none]
+G c Z s b [est_vide liste_chaine 22 13 none]
+G c Z s b [inserer_en_tete liste_chaine 29 14 none]
+G c Z s b [afficher_liste liste_chaine 36 14 none]
+G c Z s b [rechercher liste_chaine 43 13 none]
+G c Z s b [inserer_apres liste_chaine 50 14 none]
+G c Z s b [inserer_avant liste_chaine 57 14 none]
+G c Z s b [enlever liste_chaine 64 14 none]
 G c Z s s [celluleIP liste_chaine 9 9 none]
+G c Z b b [free liste_chaine 10 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 17|1r6 1r23 2r6 2r29 3r6 3r31 18|1r6 1r23 2r6 2r29 3r6 3r31
+16K9*Ada 20e8 18|1r6 1r23 2r6 2r29 3r6 3r31 19|1r6 1r23 2r6 2r29 3r6 3r31
+. 4r6 10r26
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 17|2w10 2r33 18|2w10 2r33
+20K13*Float_Text_IO[12|46] 18|2w10 2r33 19|2w10 2r33
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 17|3w10 3r35 18|3w10 3r35
+18K13*Integer_Text_IO[13|46] 18|3w10 3r35 19|3w10 3r35
 X 11 a-textio.ads
-58K13*Text_IO 725e16 17|1w10 1r27 18|1w10 1r27
-506U14*Put_Line 18|42s10
-X 17 liste_chaine.ads
-5K9*liste_chaine 68l5 68e17 18|5b14 71l5 71t17
-7R9*cellule 8r25 9c9 12e14 18|10r24 29r27
-8P9*liste(7R9) 11r17 14r37 20r38 27r50 34r45 41r40 41r70 18|7r37 8r19 16r38
-. 26r50 37r45 49r40 49r70 51r17 52r20
-10i7*valeur{integer} 18|30m20 32m20 42r43 59r27
-11p7*suivant{8P9} 18|43r35 64r38
-14V13*creer_liste_vide{8P9} 18|7b13 13l8 13t24
-20V13*est_vide{boolean} 20>23 18|16b13 23l8 23t16
-20p23 une_liste{8P9} 18|16b23 18r10
-27U14*inserer_en_tete 27=31 27>57 18|26b14 34l8 34t23
-27p31 une_liste{8P9} 18|26b31 28r10 29m10 30r10 32r10
-27i57 n{integer} 18|26b57 30r30 32r30
-34U14*afficher_liste 34>30 18|37b14 43s10 46l8 46t22
-34p30 une_liste{8P9} 18|37b30 39r10 42r33 43r25
-41V13*rechercher{8P9} 41>25 41>47 18|49b13 70l8 70t18
-41p25 une_liste{8P9} 18|49b25 52r29 54r18 55r10
-41i47 e{integer} 18|49b47 59r36
-X 18 liste_chaine.adb
-8p7 une_liste{17|8P9} 10m7 11m7 12r14
-50b7 present{boolean} 60m16 66r13
-51p7 address{17|8P9} 54m7 61r23 63m13
-52p7 temp_liste{17|8P9} 58r16 59r16 63r24 64m13 64r27
+58K13*Text_IO 725e16 18|1w10 1r27 19|1w10 1r27
+506U14*Put_Line 19|44s10
+X 15 a-uncdea.ads
+17+9 Object 19|10r53
+18P9 Name(17+9) 19|10r72
+20u15*Unchecked_Deallocation 19|4w10 10r30
+X 18 liste_chaine.ads
+5K9*liste_chaine 70l5 70e17 19|8b14 130l5 130t17
+7R9*cellule 8r25 9c9 12e14 19|10r63 15r24 34r16 80r35 102r30
+8P9*liste(7R9) 11r17 16r37 22r38 29r50 36r45 43r40 43r70 50r48 57r48 64r41
+. 19|10r80 12r37 13r19 21r38 31r50 32r11 41r45 50r40 50r70 51r17 52r20 70r48
+. 71r22 85r48 86r46 107r41 108r32
+10i7*valeur{integer} 19|35m13 44r47 59r31 93r28 115r59 123r31
+11p7*suivant{8P9} 19|36m13 45r39 63r38 80m20 80r64 95r35 102r57 117r38 121r44
+. 124m28 124r54
+13X4*liste_vide 19|74r16 89r16
+14X4*element_absent 19|78r16 100r16
+16V13*creer_liste_vide{8P9} 19|12b13 18l8 18t24
+22V13*est_vide{boolean} 22>23 19|21b13 28l8 28t16
+22p23 une_liste{8P9} 19|21b23 23r10
+29U14*inserer_en_tete 29=31 29>57 19|31b14 38l8 38t23 98s10
+29p31 une_liste{8P9} 19|31b31 36r24 37m7
+29i57 n{integer} 19|31b57 35r23
+36U14*afficher_liste 36>30 19|41b14 45s10 47l8 47t22
+36p30 une_liste{8P9} 19|41b30 43r10 44r33 45r25
+43V13*rechercher{8P9} 43>25 43>47 19|50b13 67l8 67t18 76s23
+43p25 une_liste{8P9} 19|50b25 54r10 57r24
+43i47 e{integer} 19|50b47 59r40
+50U14*inserer_apres 50=29 50>55 50>71 19|70b14 81l8 81t21
+50p29 une_liste{8P9} 19|70b29 73r10 76r34
+50i55 n{integer} 19|70b55 80r44
+50i71 data{integer} 19|70b71 76r45
+57U14*inserer_avant 57=29 57>55 57>71 19|85b14 104l8 104t21
+57p29 une_liste{8P9} 19|85b29 88r10 91r21 98m26
+57i55 n{integer} 19|85b55 98r37 102r39
+57i71 data{integer} 19|85b71 93r38
+64U14*enlever 64=22 64>48 19|107b14 128l8 128t15
+64p22 une_liste{8P9} 19|107b22 110r10 113r24 121m16
+64i48 e{integer} 19|107b48 115r69 123r40
+X 19 liste_chaine.adb
+10U14 free[15|20] 125s13
+13p7 une_liste{18|8P9} 15m7 16m7 17r14
+32p7 p{18|8P9} 34m7 35r7 36r7 37r20
+51p7 address{18|8P9} 60m16 61r23
+52p7 temp_liste{18|8P9} 57m10 58r16 59r16 60r27 63m13 63r27
+71p7 address_data{18|8P9} 76m7 77r10 80r7 80r47
+86p7 address_data{18|8P9} 102m10
+86p21 temp_liste{18|8P9} 91m7 93r13 94r24 95m10 95r24 99r13
+86p33 prec_liste{18|8P9} 92m7 94m10 97r10 102r42
+108p7 temp_liste{18|8P9} 113m10 115r16 115r44 116r27 117m13 117r27 120r16
+. 121r29 123r16 124r39 125m18 125r18
+108p19 prec_liste{18|8P9} 114m10 116m13 119r13 124r13
 

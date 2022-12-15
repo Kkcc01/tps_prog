@@ -1,8 +1,12 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with Ada.Unchecked_Deallocation;
+
 
 package body liste_chaine is
+
+   procedure free is new Ada.Unchecked_Deallocation(Object => cellule, Name => liste);
 
    function creer_liste_vide return liste is
       une_liste : liste;
@@ -24,73 +28,101 @@ package body liste_chaine is
 
 
    procedure inserer_en_tete (une_liste : in out liste; n : in Integer) is
+      p : liste;
    Begin
-      if une_liste = null then
-         une_liste := new cellule;
-         une_liste.valeur := n;
-      else
-         une_liste.valeur := n;
-      end if;
+      p := new cellule;
+      p.all.valeur := n;
+      p.all.suivant := une_liste;
+      une_liste := p;
    end inserer_en_tete;
 
 
    procedure afficher_liste (une_liste : in liste) is
    Begin
-      if une_liste = null then
-         null;
-      else
-         Put_Line(Integer'Image(une_liste.valeur));
-         afficher_liste(une_liste.suivant);
+      if une_liste /= null then
+         Put_Line(Integer'Image(une_liste.all.valeur));
+         afficher_liste(une_liste.all.suivant);
       end if;
-
    end afficher_liste;
 
 
    function rechercher (une_liste : in liste; e : in Integer) return liste is
-      present : Boolean := false;
       address : liste;
-      temp_liste : liste := une_liste;
+      temp_liste : liste;
    Begin
-      address := une_liste; --j'initialise l'address à l'en tete qui pointe vers la première valeur
       if une_liste = null then
          return null; --la liste est vide
       else
+         temp_liste := une_liste;
          while temp_liste /= null loop
-            if temp_liste.valeur = e then
-               present := true;
-               return address; --la valeur est présente on revoie l'adresse
+            if temp_liste.all.valeur = e then
+               address := temp_liste;
+               return address; --la valeur est présente on renvoie l'adresse
             end if;
-            address := temp_liste;
             temp_liste := temp_liste.suivant;
          end loop;
-         if present = false then
-            return null; --la valeur n'est pas présente
-         end if;
+         return null;
       end if;
    end rechercher;
 
 
    procedure inserer_apres (une_liste : in out liste; n : in Integer; data : in Integer) is
       address_data : liste;
-      temp_liste : liste := une_liste;
    Begin
+      if une_liste = null then
+         raise liste_vide;
+      end if;
       address_data := rechercher(une_liste, data);
-      loop
-         Exit when temp_liste.suivant = address_data;
-         temp_liste := temp_liste.suivant;
-      end loop;
-      temp_liste.valeur := n;
-      une_liste := temp_liste;
-   exception
-      when Constraint_Error => ("L'élément n'est pas dans la liste ou la liste est vide.");
+      if address_data = null then
+         raise element_absent;
+      end if;
+      address_data.suivant := new cellule'(n, address_data.all.suivant);
    end inserer_apres;
 
 
-   procedure enlever(une_liste : in out liste; e : in Integer) is
-      address_e : liste := rechercher(une_liste, e);
+
+   procedure inserer_avant (une_liste : in out liste; n : in Integer; data : in Integer) is
+      address_data, temp_liste, prec_liste : liste;
    Begin
-      if address_e = null then
+      if une_liste = null then
+         raise liste_vide;
+      end if;
+      temp_liste := une_liste;
+      prec_liste := null;
+      while temp_liste.all.valeur /= data loop
+         prec_liste := temp_liste;
+         temp_liste := temp_liste.suivant;
+      end loop;
+      if prec_liste = null then
+         inserer_en_tete(une_liste, n);
+      elsif temp_liste = null then
+         raise element_absent;
+      else
+         address_data := new cellule'(n, prec_liste.all.suivant);
+      end if;
+   end inserer_avant;
+
+
+   procedure enlever(une_liste : in out liste; e : in Integer) is
+      temp_liste, prec_liste : liste;
+   Begin
+      if une_liste = null then
          null;
+      else
+         temp_liste := une_liste;
+         prec_liste := null;
+         while temp_liste /= null and then temp_liste.all.valeur /= e loop
+            prec_liste := temp_liste;
+            temp_liste := temp_liste.suivant;
+         end loop;
+         if prec_liste = null then
+            if temp_liste /= null then
+               une_liste := temp_liste.all.suivant;
+            end if;
+         elsif temp_liste.all.valeur = e then
+            prec_liste.all.suivant := temp_liste.all.suivant;
+            free(temp_liste);
+         end if;
       end if;
    end enlever;
 

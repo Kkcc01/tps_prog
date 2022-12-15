@@ -1,0 +1,71 @@
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+
+
+package body ensembles is
+
+   function creer return ensemble is
+      e : ensemble;
+   Begin
+      e.cardinal := 0;
+      return e;
+   end creer;
+
+   function appartient(x : in Integer; e : in ensemble) return boolean is
+      present : boolean := false;
+   Begin
+      for i in 1..e.cardinal loop
+         if e.contenu(i) = x then
+            present := true;
+         end if;
+      end loop;
+      return present;
+   end appartient;
+
+   procedure ajouter(x : in Integer; e : in out ensemble) is
+   Begin
+      if appartient(x,e) /= true then
+         if e.cardinal < NMAX then
+            e.contenu(e.cardinal + 1) := x;
+            e.cardinal := e.cardinal + 1;
+         else
+            Put("L'ensemble est déjà plein");
+         end if;
+      else
+         Put("L'élèment est déjà présent");
+      end if;
+   end ajouter;
+
+   procedure afficher(e : in ensemble) is
+   Begin
+      for i in 1..e.cardinal loop
+         Put(e.contenu(i));
+      end loop;
+   end afficher;
+
+   procedure supprimer(x : in Integer; e : in out ensemble) is
+      j : Integer;
+   Begin
+      if e.cardinal > 0 then
+         if appartient(x, e) = true then
+            for i in 1..e.cardinal loop
+               if e.contenu(i) = x then
+                  j := i;
+               end if;
+            end loop;
+            for i in j..e.cardinal - 1 loop
+               e.contenu(i) := e.contenu(i+1);
+            end loop;
+            e.cardinal := e.cardinal - 1;
+         else
+            New_Line;
+            Put_Line("La valeur n'est pas presente");
+         end if;
+      else
+         Put("L'ensemble est vide");
+      end if;
+   end supprimer;
+
+
+end ensembles;

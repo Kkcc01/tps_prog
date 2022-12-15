@@ -8,9 +8,9 @@ package body recursif1 is
    Begin
       if index <= taille then
          if index > 0 then
-            if index = taille then
+            if index != 0 then
                Put(un_tab(index));
-               afficher_d_g(un_tab, taille -1, index-1);
+               afficher_d_g(un_tab, taille, index-1);
             else
                null;
             end if;
@@ -18,7 +18,7 @@ package body recursif1 is
             null;
          end if;
       else
-         Put_Line("Indindex outex hors bornes");
+         Put_Line("Index hors bornes");
       end if;
    end afficher_d_g;
 

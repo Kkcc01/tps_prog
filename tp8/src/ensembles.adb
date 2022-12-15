@@ -15,7 +15,7 @@ package body ensembles is
    function appartient(x : in Integer; e : in ensemble) return boolean is
       present : boolean := false;
    Begin
-      for i in 1..NMAX loop
+      for i in 1..e.cardinal loop
          if e.contenu(i) = x then
             present := true;
          end if;
@@ -45,10 +45,10 @@ package body ensembles is
                j := i;
             end if;
          end loop;
-         for i in reverse j..e.cardinal loop
-            e.contenu(i) := e.contenu(i-1);
-            e.cardinal := e.cardinal - 1;
+         for i in j..e.cardinal - 1 loop
+            e.contenu(i) := e.contenu(i+1);
          end loop;
+         e.cardinal := e.cardinal - 1;
       else
          New_Line;
          Put_Line("La valeur n'est pas présente");

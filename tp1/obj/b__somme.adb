@@ -245,9 +245,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/obj/somme.o
-   --   -L/home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/obj/
-   --   -L/home/kaycee/n7/cours/1A/tp_prog/tp_prog/TPs/obj/
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/somme.o
+   --   -L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/
+   --   -L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/
    --   -L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
    --   -static
    --   -lgnat

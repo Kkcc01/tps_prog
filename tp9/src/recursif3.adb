@@ -18,4 +18,7 @@ package body recursif3 is
    procedure affiche_rec(m : in Integer; n : in Integer) is
    Begin
 
+      afficher_rec(
+   end affiche_rec;
+
 end recursif3;

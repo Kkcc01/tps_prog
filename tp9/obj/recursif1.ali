@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_RECURSION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U recursif1%b		recursif1.adb		39087003 NE OO PK IL
+U recursif1%b		recursif1.adb		df9f1f83 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -41,7 +41,7 @@ D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
 D recursif1.ads		20221207082554 9c8a6e2d recursif1%s
-D recursif1.adb		20221207082517 1cb70547 recursif1%b
+D recursif1.adb		20230102151435 fa206ac7 recursif1%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -80,8 +80,8 @@ X 17 recursif1.ads
 8A9*TAB_ENTIERS(integer)<integer> 10r39 13r40 15r33 18|7r40 26r40 38r33
 10U14*afficher_d_g 10>27 10>52 10>73 18|7b14 13s16 23l8 23t20
 10a27 un_tab{8A9} 18|7b28 12r20 13r29
-10i52 taille{integer} 18|7b53 9r19 11r24 13r37
-10i73 index{integer} 18|7b74 9r10 10r13 11r16 12r27 13r48
+10i52 taille{integer} 18|7b53 9r19 13r37
+10i73 index{integer} 18|7b74 9r10 10r13 11r16 12r27 13r45
 13U14*afficher_g_d 13>28 13>53 13>74 18|26b14 31s10 35l8 35t20
 13a28 un_tab{8A9} 18|26b28 30r14 31r23
 13i53 taille{integer} 18|26b53 28r19 31r31

@@ -6,11 +6,10 @@ A -march=x86-64
 P ZX
 
 RN
-RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U nb_amis%b		nb_amis.adb		fbb093c7 NE OO SU IL
+U nb_amis%b		nb_amis.adb		1cbbd656 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -33,7 +32,7 @@ D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D nb_amis.adb		20221125202912 428588ae nb_amis%b
+D nb_amis.adb		20221229155615 a58ecd3f nb_amis%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -60,20 +59,19 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[13|46] 17|2w10 2r35
 X 11 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 1r27
-262U14*New_Line 17|52s10
-463U14*Put 17|10s4 28s10 44s13 51s10
+463U14*Put 17|10s4
+506U14*Put_Line 17|30s13 35s7
 X 13 a-tiinio.ads
 59U14*Get 17|11s4[4|18]
-80U14*Put 17|27s10[4|18] 43s13[4|18] 49s10[4|18] 50s10[4|18]
+80U14*Put 17|28s13[4|18] 29s13[4|18]
 X 17 nb_amis.adb
-5U11*nb_amis 5b11 56l5 56t12
-6i4 NMAX{natural} 11m8 15r21 31r24
-7i4 N{natural} 12m4 15r17 19r24 20r13 41r18 50r14 54m7 54r12
-7i7 M{natural} 13m4 25r15 31r20 35r27 36r16 46m10 46r15 49r14
-7i10 s1{natural} 17m7 21m13 21r19 25r10 27r14
-7i14 s2{natural} 33m10 37m16 37r22 41r13 43r17
-7i18 i{natural} 32m10 35r23 36r22 37r27 39m13 39r18
-7i21 j{natural} 16m7 19r20 20r19 21r24 23m10 23r15
-8b4 c1{boolean} 42m13 48r10
-8b8 c2{boolean} 26m10 48r24
+5U11*nb_amis 5b11 37l5 37t12
+6i4 MAX{natural} 11m8 12r17 19r20
+7i4 s1{natural} 13m7 16m13 16r19 26r28
+7i8 s2{natural} 20m10 23m16 23r22 26r44
+8b4 present{boolean} 27m13 34r11
+12i8 N{integer} 14r20 15r13 26r17 26r49 28r17
+14i11 j{integer} 15r19 16r24
+19i11 M{integer} 21r23 22r16 26r13 26r33 29r17
+21i14 i{integer} 22r22 23r27
 

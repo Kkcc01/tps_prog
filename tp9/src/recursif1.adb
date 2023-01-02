@@ -8,7 +8,7 @@ package body recursif1 is
    Begin
       if index <= taille then
          if index > 0 then
-            if index != 0 then
+            if index /= 0 then
                Put(un_tab(index));
                afficher_d_g(un_tab, taille, index-1);
             else

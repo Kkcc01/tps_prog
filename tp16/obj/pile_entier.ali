@@ -1,0 +1,82 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pile_entier%b		pile_entier.adb		5de2837c NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U pile_entier%s		pile_entier.ads		596b480a EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pile_entier.ads	20230102160841 596b480a pile_entier%s
+D pile_entier.adb	20230102160926 aa7d1e1b pile_entier%b
+D system.ads		20210520051134 a2da961d system%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [initialiser pile_entier 7 14 none]
+G c Z s b [empiler pile_entier 9 14 none]
+G c Z s b [est_vide pile_entier 11 13 none]
+G c Z s b [depiler pile_entier 13 14 none]
+G c Z s b [sommet pile_entier 15 13 none]
+G c Z s b [test pile_entier 17 14 none]
+G c Z s s [pile_integerIP pile_entier 2 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 14|1w10 1r27
+506U14*Put_Line 14|41s10 43s10 48s10 50s10
+X 13 pile_entier.ads
+1K9*pile_entier 21E4 25l5 25e16 14|3b14 54l5 54t16
+2R9*pile_integer 5e14 7r42 9r41 11r37 13r40 15r35 17r38 14|5r42 11r41 18r37
+. 24r40 29r35 34r38
+3i7*element{integer} 14|14m16 31r23
+4i7*som{integer} 14|7m16 13m16 13r32 20r24 26m16 26r32
+7U14*initialiser 7<27 14|5b14 8l8 8t19 36s7
+7r27 une_pile{2R9} 14|5b27 7m7
+9U14*empiler 9=23 9>55 14|11b14 15l8 15t15 37s7 38s7 39s7
+9r23 une_pile{2R9} 14|11b23 13m7 13r23 14m7
+9i55 un_entier{integer} 14|11b55 14r27
+11V13*est_vide{boolean} 11>23 14|18b13 21l8 21t16 47s10
+11r23 une_pile{2R9} 14|18b23 20r15
+13U14*depiler 13=22 14|24b14 27l8 27t15 45s7 46s7
+13r22 une_pile{2R9} 14|24b22 26m7 26r23
+15V13*sommet{integer} 15>21 14|29b13 32l8 32t14 40s10
+15r21 une_pile{2R9} 14|29b21 31r14
+17U14*test 17=20 14|34b14 52l8 52t12
+17r20 une_pile{2R9} 14|34b20 36m19 37m15 38m15 39m15 40r17 45m15 46m15 47r19
+21i4 NMAX{integer}
+

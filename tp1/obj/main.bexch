@@ -1,17 +1,18 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/tp1.gpr
-20221125193530 03d451dd275e9bc755e0019e6c1da49d
+/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/tp1.gpr
+20221125193530 e891046fd09b5b7b0689be54c30ae490
 [BOUND OBJECT FILES]
-/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/main.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/somme.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--L/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/
--L/home/kaycee/n7/cours/1A/tp_prog/tp/TPs/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp1/obj/
 -L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
 -static
 -static-libgcc

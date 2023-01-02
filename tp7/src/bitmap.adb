@@ -15,7 +15,7 @@ procedure bitmap is
    procedure afficher is
    Begin
       Put_Line("====================================================");
-      Put_Line("indices    tableau de booléens    tableau de valeurs");
+      Put_Line("indices    tableau de booleens    tableau de valeurs");
       Put_Line("====================================================");
       for i in imin..imax loop
          Put(i);
@@ -29,7 +29,7 @@ procedure bitmap is
       New_Line;
       Put_Line("Valeurs");
       Put_Line("====================================================");
-      Put_Line("indices    tableau de booléens    tableau de valeurs");
+      Put_Line("indices    tableau de booleens    tableau de valeurs");
       Put_Line("====================================================");
       for i in imin..imax loop
          if tab_bool(i) = true then
@@ -41,7 +41,7 @@ procedure bitmap is
          end if;
       end loop;
       Put_Line("====================================================");
-      Put("Nombre effectif d'éléments = ");
+      Put("Nombre effectif d'elements = ");
       Put_Line(Integer'Image(nb_elements));
       New_Line;
       New_Line;

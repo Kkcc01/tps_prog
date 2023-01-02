@@ -1,0 +1,5 @@
+with pile_integer; use pile_integer;
+
+package body calculatrice is
+
+   function addition (la_pil

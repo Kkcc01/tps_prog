@@ -1,5 +1,4 @@
 V "GNAT Lib v2021"
-M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
@@ -9,11 +8,14 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U somme%b		somme.adb		3de77ab0 NE OO SU IL
+U somme%b		somme.adb		9e3fb90c NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U somme%s		somme.ads		01568280 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 
 D ada.ads		20210520051130 76789da1 ada%s
 D a-except.ads		20210520051127 946f3014 ada.exceptions%s
@@ -29,7 +31,8 @@ D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D somme.adb		20221125183306 65582679 somme%b
+D somme.ads		20221217123205 01568280 somme%s
+D somme.adb		20221217123334 c7d66745 somme%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -47,22 +50,21 @@ D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [somme standard 4 11 none]
+G c Z s b [sommer somme 3 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 15|1r6 1r23 2r6 2r31
+16K9*Ada 20e8 16|1r6 1r23 2r6 2r31
 X 3 a-inteio.ads
-18K13*Integer_Text_IO[11|46] 15|2w10 2r35
+18K13*Integer_Text_IO[11|46] 16|2w10 2r35
 X 10 a-textio.ads
-58K13*Text_IO 725e16 15|1w10 1r27
-262U14*New_Line 15|20s5
-506U14*Put_Line 15|10s5 12s5
+58K13*Text_IO 725e16 16|1w10 1r27
 X 11 a-tiinio.ads
-59U14*Get 15|11s5[3|18] 13s5[3|18]
-80U14*Put 15|21s5[3|18]
-X 15 somme.adb
-4U11*somme 4b11 22l5 22t10
-5i5 n{natural} 11m9 18r23
-6i5 m{natural} 13m9 14r10
-7i4 s{natural} 16m9 16r14 21r9
-8i4 i{natural} 14m5 16r18 17m9 17r14 18r19
+80U14*Put 16|11s7[3|18]
+X 15 somme.ads
+1K9*somme 9l8 9e13 16|3b14 13l5 13t10
+3U14*sommer 3>22 3>38 16|5b14 12l8 12t14
+3i22 m{integer} 16|5b22 8r16
+3i38 n{integer} 16|5b38 8r19
+X 16 somme.adb
+6i7 s{integer} 9m10 9r15 11r11
+8i11 i{integer} 9r19
 

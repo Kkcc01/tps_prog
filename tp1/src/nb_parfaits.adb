@@ -4,25 +4,20 @@ with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 
 procedure nb_parfaits is
    N : Natural;
-   i, j, s : Natural;
+   s : Natural;
 begin
    Put("Tapez le nombre N (>= 2) = ");
    get(N);
-   i := 2;
-   loop
-      Exit when i = N;
-      j := 1;
+   for i in 2..(N-1) loop
       s := 0;
-      loop
-         Exit when j = i;
+      for j in 1..(i-1) loop
          if i mod j = 0 then
             s := s + j;
          end if;
-         j := j + 1;
       end loop;
       if s = i then
          Put(i);
+         Put_Line(" est un nombre parfait.");
       end if;
-      i := i + 1;
    end loop;
 end nb_parfaits;

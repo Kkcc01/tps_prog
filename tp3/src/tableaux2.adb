@@ -8,7 +8,7 @@ procedure tableaux2 is
 Begin
    nb_elements := 5;
     for i in 1..nb_elements loop
-        Put_Line("Insérez vos données");
+        Put_Line("Inserez vos donnees");
         Get(un_tab(i)); -- Initialisation du tableau
    end loop;
     for j in 1..nb_elements loop

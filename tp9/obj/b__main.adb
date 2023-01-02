@@ -251,12 +251,12 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/mc91.o
-   --   /home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/recursif1.o
-   --   /home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/recursif3.o
-   --   /home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/main.o
-   --   -L/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/
-   --   -L/home/kaycee/n7/cours/1A/programmation/tp/tp9/obj/
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/tp9/obj/mc91.o
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/tp9/obj/recursif1.o
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/tp9/obj/recursif3.o
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/tp9/obj/main.o
+   --   -L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp9/obj/
+   --   -L/home/kaycee/n7/cours/1A/s1/programmation/tp/tp9/obj/
    --   -L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
    --   -static
    --   -lgnat

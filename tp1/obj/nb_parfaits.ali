@@ -9,7 +9,7 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U nb_parfaits%b		nb_parfaits.adb		a3a24a06 NE OO SU IL
+U nb_parfaits%b		nb_parfaits.adb		c924994f NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -32,7 +32,7 @@ D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D nb_parfaits.adb	20221125193447 1a97516f nb_parfaits%b
+D nb_parfaits.adb	20221229152528 70118226 nb_parfaits%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -60,13 +60,14 @@ X 4 a-inteio.ads
 X 11 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 1r27
 463U14*Put 17|9s4
+506U14*Put_Line 17|20s10
 X 13 a-tiinio.ads
 59U14*Get 17|10s4[4|18]
-80U14*Put 17|24s10[4|18]
+80U14*Put 17|19s10[4|18]
 X 17 nb_parfaits.adb
-5U11*nb_parfaits 5b11 28l5 28t16
-6i4 N{natural} 10m8 13r21
-7i4 i{natural} 11m4 13r17 17r24 18r13 23r14 24r14 26m7 26r12
-7i7 j{natural} 14m7 17r20 18r19 19r22 21m10 21r15
-7i10 s{natural} 15m7 19m13 19r18 23r10
+5U11*nb_parfaits 5b11 23l5 23t16
+6i4 N{natural} 10m8 11r17
+7i4 s{natural} 12m7 15m13 15r18 18r10
+11i8 i{integer} 13r20 14r13 18r14 19r14
+13i11 j{integer} 14r19 15r22
 

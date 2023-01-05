@@ -1,14 +1,9 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp14/tp14.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp14/tp14.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp14/src/liste_gen.ads</vfs_file>
-    </file_marker>
+  <Project >
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp14/tp14.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp14/src/liste_gen.adb</vfs_file>
+      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp14/src/liste_gen.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>

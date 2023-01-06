@@ -2,7 +2,7 @@ with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Unchecked_Deallocation;
 
 
-package body arbre is
+package body arbre_gen is
 
 
    procedure free is new Ada.Unchecked_Deallocation(Object => T_noeud, Name => T_AB);
@@ -21,7 +21,7 @@ package body arbre is
    end Est_Vide;
 
 
-   function Taille (Abr : in T_AB) return Integer is
+   function Taille (Abr : in T_AB) return un_type is
       abr_vide : EXCEPTION;
    Begin
       if Abr = null then
@@ -32,7 +32,7 @@ package body arbre is
    end taille;
 
 
-   procedure Inserer (Abr : in out T_AB ; Donnee : in Integer) is
+   procedure Inserer (Abr : in out T_AB ; Donnee : in un_type) is
       donnee_presente : EXCEPTION;
    Begin
       if Abr = null then
@@ -50,7 +50,7 @@ package body arbre is
    end inserer;
 
 
-   function Recherche (Abr : T_AB; Donnee: in Integer) return Boolean is
+   function Recherche (Abr : T_AB; Donnee: in un_type) return Boolean is
    Begin
       if Abr /= null then
          if Abr.all.contenu > Donnee then
@@ -66,7 +66,7 @@ package body arbre is
    end recherche;
 
 
-   procedure Modifier (Abr : in out T_AB ; src_donnee : in Integer; tar_donnee : in Integer) is
+   procedure Modifier (Abr : in out T_AB ; src_donnee : in un_type; tar_donnee : in un_type) is
       abr_vide, element_present, element_absent : EXCEPTION;
    Begin
       if Abr /= null then
@@ -84,7 +84,7 @@ package body arbre is
    end modifier;
 
 
-   procedure Supprimer (Abr : in out T_AB; donnee : in Integer) is
+   procedure Supprimer (Abr : in out T_AB; donnee : in un_type) is
       noeud_temp : T_AB;
       abr_vide, donnee_absente: EXCEPTION;
       f_g, f_d : Boolean;
@@ -140,7 +140,7 @@ package body arbre is
    end afficher;
 
 
-   function maximum (Abr : T_AB) return Integer is
+   function maximum (Abr : T_AB) return un_type is
    Begin
       if Abr /= null then
          if Est_Vide(Abr.all.f_d) then
@@ -155,4 +155,4 @@ package body arbre is
    end maximum;
 
 
-end arbre;
+end arbre_gen;

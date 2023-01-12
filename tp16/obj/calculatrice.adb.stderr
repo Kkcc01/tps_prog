@@ -1,0 +1,6 @@
+calculatrice.adb:19:32: error: prefix of dereference must be an access type
+calculatrice.adb:19:55: error: prefix of dereference must be an access type
+calculatrice.adb:22:32: error: prefix of dereference must be an access type
+calculatrice.adb:22:55: error: prefix of dereference must be an access type
+calculatrice.adb:25:32: error: prefix of dereference must be an access type
+calculatrice.adb:25:55: error: prefix of dereference must be an access type

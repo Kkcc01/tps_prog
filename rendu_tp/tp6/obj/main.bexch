@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/tp6.gpr
+20221126143708 3e6c1c40b48a10da382a850e117e549a
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/binaires.o
+/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

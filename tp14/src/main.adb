@@ -9,19 +9,11 @@ procedure Main is
       Put_Line(Integer'Image(n));
    end print_int;
 
-   procedure print_char(lettre : in Character) is
-   Begin
-      Put(lettre);
-      New_Line;
-   end print_char;
 
    package liste_entier is new liste_gen (un_type => Integer);
    use liste_entier;
    procedure afficher_int is new afficher_liste(print_int);
 
-   package liste_char is new liste_gen (un_type => Character);
-   use liste_char;
-   procedure afficher_char is new afficher_liste(print_char);
 
 
    la_liste : liste_entier.liste;
@@ -37,7 +29,7 @@ begin
    inserer_apres(la_liste, 14, 12);
    inserer_apres(la_liste, 15, 14);
    inserer_avant(la_liste, 7, 12);
-   --afficher_int(la_liste);
-   enlever(la_liste, 14);
-   --afficher_int(la_liste);
+   afficher_int(la_liste);
+   inserer_apres(la_liste, 8, 14);
+   afficher_int(la_liste);
 end Main;

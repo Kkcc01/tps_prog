@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/s1/programmation/tp/test_arbre/default.gpr
+20230109195750 087679c780b8b23dde5453c6d26d4210
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/s1/programmation/tp/test_arbre/obj/arbre.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/test_arbre/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/test_arbre/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/test_arbre/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

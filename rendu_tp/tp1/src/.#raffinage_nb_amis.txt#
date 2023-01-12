@@ -1,0 +1,7 @@
+R0 : Afficher tous les couples (N, M) de nombres amis inférieur à MAX lu au clavier
+R1 : Comment afficher tous les couples (N, M) de nombres amis inférieur à MAX lu au clavier ?
+A1 : Sommer tous les diviseurs de N (N exclu) N : in Natural, s1 : in out Natural
+A2 : Sommer tous les diviseurs de M (M exclu) M : in Natural, s2 : in out Natural
+A3 : Comparer s1 et M s1, M : in Natural
+A4 : Comparer s2 et N s2, N : in Natural
+A5 : Afficher le couple (N, M) N, M : in Natural

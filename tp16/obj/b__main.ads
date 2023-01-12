@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#706cff9e#;
+   u00001 : constant Version_32 := 16#0f894118#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -312,14 +312,18 @@ package ada_main is
    pragma Export (C, u00135, "system__val_llliS");
    u00136 : constant Version_32 := 16#750441df#;
    pragma Export (C, u00136, "system__val_llluS");
-   u00137 : constant Version_32 := 16#5de2837c#;
-   pragma Export (C, u00137, "pile_entierB");
-   u00138 : constant Version_32 := 16#596b480a#;
-   pragma Export (C, u00138, "pile_entierS");
-   u00139 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00139, "system__memoryB");
-   u00140 : constant Version_32 := 16#fba7f029#;
-   pragma Export (C, u00140, "system__memoryS");
+   u00137 : constant Version_32 := 16#7a4ff88a#;
+   pragma Export (C, u00137, "calculatriceB");
+   u00138 : constant Version_32 := 16#22b32c11#;
+   pragma Export (C, u00138, "calculatriceS");
+   u00139 : constant Version_32 := 16#0b9d4f76#;
+   pragma Export (C, u00139, "pile_entierB");
+   u00140 : constant Version_32 := 16#7e9a7061#;
+   pragma Export (C, u00140, "pile_entierS");
+   u00141 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00141, "system__memoryB");
+   u00142 : constant Version_32 := 16#fba7f029#;
+   pragma Export (C, u00142, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -461,6 +465,8 @@ package ada_main is
    --  ada.integer_text_io%b
    --  pile_entier%s
    --  pile_entier%b
+   --  calculatrice%s
+   --  calculatrice%b
    --  main%b
    --  END ELABORATION ORDER
 

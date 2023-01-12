@@ -1,25 +1,41 @@
 package pile_entier is
-   TYPE pile_integer is RECORD
-      element : INTEGER;
-      som : INTEGER;
-   end RECORD;
+   TYPE pile is private;
 
-   procedure initialiser (une_pile : out pile_integer);
+   procedure creer_pile_vide (une_pile : out pile);
+   -- semantique : créer une liste vide
+   -- pre : none
+   -- post : est_vide (1) vaut vrai
+   -- exception : none
 
-   procedure empiler (une_pile : in out pile_integer; un_entier : in INTEGER);
+   function est_vide (une_pile : in pile) return boolean;
+   -- semantique : tester si une liste 1 est vide
+   -- pre : none
+   -- post : none
+   -- exception : none
 
-   function est_vide (une_pile : in pile_integer) return BOOLEAN;
 
-   procedure depiler(une_pile : in out pile_integer);
+   procedure empiler (une_pile : in out pile; n : in INTEGER);
+   -- semantique : insere l'element nouveau en tete de la liste 1
+   -- pre : none
+   -- post : n appartient à la liste
+   -- exception : aucune
 
-   function sommet (une_pile : in pile_integer) return INTEGER;
 
-   procedure test (une_pile : in out pile_integer);
+   procedure depiler(une_pile : in out pile);
+
+   function sommet (une_pile : in pile) return INTEGER;
+
+   procedure afficher_pile (une_pile : in pile);
+
+   procedure test (une_pile : in out pile);
 
 
 private
-   NMAX : CONSTANT INTEGER := 50;
-   --TYPE TAB_ENTIER is ARRAY (1..NMAX) of INTEGER;
-   --TYPE pile_integer is
+   TYPE etage;
+   TYPE pile is access etage;
+   TYPE etage is RECORD
+      element : INTEGER;
+      inf : pile;
+   end RECORD;
 
 end pile_entier;

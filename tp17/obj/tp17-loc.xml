@@ -1,41 +1,13 @@
 <?xml version="1.0"?>
 <Locations >
   <Project >
-    <file_marker column=" 10" line=" 32" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 122" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 31" line=" 43" >
+    <file_marker column=" 25" line=" 37" >
       <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
       <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 83" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 74" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 108" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 10" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker current="true" column=" 48" line=" 143" >
       <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
       <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre_gen.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
-      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre_gen.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>

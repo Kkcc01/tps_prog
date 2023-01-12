@@ -19,7 +19,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		9b0020d4 NE OO SU
+U main%b		main.adb		4fae9e69 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
@@ -52,7 +52,7 @@ D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
 D liste_gen.ads		20221213083659 6bd1d917 liste_gen%s
 D liste_gen.adb		20221213083744 29c2572a liste_gen%b
-D main.adb		20221213084530 49e4e2aa main%b
+D main.adb		20230109164455 9d4a5c17 main%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -82,30 +82,24 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[13|46] 20|3w10 3r35
 X 11 a-textio.ads
 58K13*Text_IO 725e16 20|1w10 1r27
-262U14*New_Line 20|15s7
-390U14*Put 20|14s7
-506U14*Put_Line 20|9s7 33s4
+506U14*Put_Line 20|9s7 27s4
 X 18 liste_gen.ads
-6+9 un_type 20|18r43 22r41
-9k9*liste_gen 78e14 20|4w6 18r32 22r30
-11P9 liste 20|25r28[18]
-15V13 creer_liste_vide{11P9[20|18]} 20|31s16[18]
-21V13 est_vide{boolean} 20|32s13[18]
-28U14 inserer_en_tete 20|34s4[18]
-36u14 afficher_liste 20|20r34[18]
-50U14 inserer_apres 20|35s4[18] 36s4[18]
-57U14 inserer_avant 20|37s4[18]
-64U14 enlever 20|39s4[18]
+6+9 un_type 20|13r43
+9k9*liste_gen 78e14 20|4w6 13r32
+11P9 liste 20|19r28[13]
+15V13 creer_liste_vide{11P9[20|13]} 20|25s16[13]
+21V13 est_vide{boolean} 20|26s13[13]
+28U14 inserer_en_tete 20|28s4[13]
+36u14 afficher_liste 20|15r34[13]
+50U14 inserer_apres 20|29s4[13] 30s4[13] 33s4[13]
+57U14 inserer_avant 20|31s4[13]
 X 20 main.adb
-6U11*Main 6b11 41l5 41t9
-7U14 print_int 7b14 7>24 10l8 10t17 20r49
+6U11*Main 6b11 35l5 35t9
+7U14 print_int 7b14 7>24 10l8 10t17 15r49
 7i24 n{integer} 9r30
-12U14 print_char 12b14 12>25 16l8 16t18
-12e25 lettre{character} 14r11
-18K12 liste_entier[18|9] 19r8 25r15
-20U14 afficher_int[18|36] 38s4 40s4
-22K12 liste_char[18|9] 23r8
-25p4 la_liste{18|11P9[18]} 31m4 32r22 34m20 34r20 35m18 35r18 36m18 36r18
-. 37m18 37r18 38r17 39m12 39r12 40r17
-26b4 empty{boolean} 32m4 33r27
+13K12 liste_entier[18|9] 14r8 19r15
+15U14 afficher_int[18|36] 32s4 34s4
+19p4 la_liste{18|11P9[13]} 25m4 26r22 28m20 28r20 29m18 29r18 30m18 30r18
+. 31m18 31r18 32r17 33m18 33r18 34r17
+20b4 empty{boolean} 26m4 27r27
 

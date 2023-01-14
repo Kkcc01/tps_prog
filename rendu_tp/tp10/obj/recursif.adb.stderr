@@ -1,0 +1,6 @@
+recursif.adb:16:07: warning: "return" statement missing following this statement [enabled by default]
+recursif.adb:16:07: warning: Program_Error may be raised at run time [enabled by default]
+recursif.adb:17:25: error: expected type "TAB_ENTIERS" defined at line 7
+recursif.adb:17:25: error: found type "Standard.Integer"
+recursif.adb:28:21: error: expected type "TAB_ENTIERS" defined at line 7
+recursif.adb:28:21: error: found type "Standard.Integer"

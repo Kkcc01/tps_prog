@@ -35,7 +35,7 @@ D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D bitmap.ads		20230102141950 3d7dd031 bitmap%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
-D main.adb		20230102142113 8888bae6 main%b
+D main.adb		20230102142122 8888bae6 main%b
 D system.ads		20210520051134 a2da961d system%s
 D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -69,7 +69,7 @@ X 11 a-textio.ads
 58K13*Text_IO 725e16 18|1w10 1r27
 X 15 bitmap.ads
 1K9*bitmap 22e14 18|4w6 4r18
-6A9*TAB_BOOLEAN(boolean)<integer> 18|7r12
+6A9*TAB_BOOLEAN(boolean)<integer> 18|7r15
 12U14*afficher 18|16s4 20s4 24s4 29s4 32s4
 14U14*chercher 18|25s4 26s4 30s4
 16U14*supprimer 18|17s4 18s4 19s4 27s4 28s4
@@ -77,5 +77,5 @@ X 15 bitmap.ads
 20U14*ajouter 18|11s4 12s4 13s4 14s4 15s4 21s4 22s4 23s4
 X 18 main.adb
 6U11*main 6b11 33l5 33t9
-7a1 tab_bool{15|6A9} 10m4
+7a4 tab_bool{15|6A9} 10m4
 

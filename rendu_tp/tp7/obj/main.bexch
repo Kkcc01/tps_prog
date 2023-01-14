@@ -1,18 +1,18 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp7/tp7.gpr
-20221126194918 6a7894d928978925187a5efc75c5146a
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp7/tp7.gpr
+20221126194918 4577391130c248a493fbaaf89a53cb43
 [BOUND OBJECT FILES]
-/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp7/obj/bitmap.o
-/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp7/obj/main.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp7/obj/bitmap.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp7/obj/main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--L/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp7/obj/
--L/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp7/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp7/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp7/obj/
 -L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
 -static
 -static-libgcc

@@ -247,10 +247,10 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/binaires.o
-   --   /home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/main.o
-   --   -L/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/
-   --   -L/home/kaycee/n7/cours/1A/s1/programmation/rendu_tp/tp6/obj/
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp6/obj/binaires.o
+   --   /home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp6/obj/main.o
+   --   -L/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp6/obj/
+   --   -L/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp6/obj/
    --   -L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
    --   -static
    --   -lgnat

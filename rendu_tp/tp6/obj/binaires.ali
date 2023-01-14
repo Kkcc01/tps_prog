@@ -8,13 +8,13 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U binaires%b		binaires.adb		03566d84 NE OO PK IL
+U binaires%b		binaires.adb		28c0f641 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
-U binaires%s		binaires.ads		a2b7e20c EE NE OO PK IL
+U binaires%s		binaires.ads		fefa46dd EE NE OO PK IL
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 
 D ada.ads		20210520051130 76789da1 ada%s
@@ -29,8 +29,8 @@ D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
 D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
-D binaires.ads		20230102140430 a2b7e20c binaires%s
-D binaires.adb		20230102141323 f95ed341 binaires%b
+D binaires.ads		20230112181520 fefa46dd binaires%s
+D binaires.adb		20230112181520 8e85ec55 binaires%b
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051134 a2da961d system%s
@@ -50,10 +50,12 @@ D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [bin_to_dec binaires 6 13 none]
-G c Z s b [dec_to_bin binaires 8 13 none]
-G c Z s b [addition_bin binaires 10 13 none]
-G c Z s b [afficher_bin binaires 12 14 none]
+G c Z s b [get_bin binaires 5 14 none]
+G c Z s b [bin_to_dec binaires 7 13 none]
+G c Z s b [dec_to_bin binaires 9 13 none]
+G c Z s b [addition_bin binaires 11 13 none]
+G c Z s b [afficher_bin binaires 13 14 none]
+G c Z s b [test binaires 15 14 none]
 G c Z s s [TbinaireBIP binaires 3 4 none]
 X 1 ada.ads
 16K9*Ada 20e8 14|1r6 1r23 2r6 2r31
@@ -62,27 +64,36 @@ X 3 a-inteio.ads
 X 10 a-textio.ads
 58K13*Text_IO 725e16 14|1w10 1r27
 X 11 a-tiinio.ads
-80U14*Put 14|31s10[3|18]
+80U14*Put 14|40s10[3|18]
 X 13 binaires.ads
-1K9*binaires 15l5 15e13 14|4b14 44l5 44t13
-3A9*BINAIRE(integer)<integer> 6r40 8r56 10r42 10r70 10r86 12r43 14|7r40 17r56
-. 18r10 28r43 35r42 35r70 35r86
-6V13*bin_to_dec{integer} 6>24 14|7b13 14l8 14t18 38s12 39s12
-6a24 un_binaire{3A9} 14|7b24 11r27
-8V13*dec_to_bin{3A9} 8=25 14|17b13 25l8 25t18 41s14
-8i25 somme{integer} 14|17b25 21r20 22m10 22r19
-10V13*addition_bin{3A9} 10>26 10>51 14|35b13 42l8 42t20
-10a26 un_binaire{3A9} 14|35b26 38r23
-10a51 autre_binaire{3A9} 14|35b51 39r23
-12U14*afficher_bin 12>27 14|28b14 33l8 33t20
-12a27 un_binaire{3A9} 14|28b27 31r14
+1K9*binaires 16l5 16e13 14|4b14 62l5 62t13
+3A9*BINAIRE(integer)<integer> 5r43 7r40 9r56 11r42 11r70 11r86 13r43 15r39
+. 15r71 15r90 14|6r42 7r13 16r40 26r56 27r13 37r43 45r42 45r70 45r86 55r39
+. 55r71 55r90
+5U14*get_bin 5=23 14|6b14 13l8 13t15 57s7 58s7
+5a23 un_binaire{3A9} 14|6b22 10r20 12m7
+7V13*bin_to_dec{integer} 7>24 14|16b13 23l8 23t18 48s12 49s12
+7a24 un_binaire{3A9} 14|16b24 20r27
+9V13*dec_to_bin{3A9} 9=25 14|26b13 34l8 34t18 51s14
+9i25 somme{integer} 14|26b25 30r20 31m10 31r19
+11V13*addition_bin{3A9} 11>26 11>51 14|45b13 52l8 52t20 59s14
+11a26 un_binaire{3A9} 14|45b26 48r23
+11a51 autre_binaire{3A9} 14|45b51 49r23
+13U14*afficher_bin 13>27 14|37b14 42l8 42t20 60s7
+13a27 un_binaire{3A9} 14|37b27 40r14
+15U14*test 15=19 15=48 15<80 14|55b14 61l8 61t12
+15a19 un_binaire{3A9} 14|55b19 57m15 59r27
+15a48 autre_binaire{3A9} 14|55b48 58m15 59r39
+15a80 res{3A9} 14|55b80 59m7 60r20
 X 14 binaires.adb
-8i4 somme{integer} 11m10 11r19 13r14
-10i11 i{integer} 11r38 11r44
-18a4 res{13|3A9} 21m10 24r14
-20i11 i{integer} 21r14
-30i11 i{integer} 31r25
-36i7 x{integer} 38m7 40r12
-36i10 y{integer} 39m7 40r16
-36i13 z{integer} 40m7 41m25 41r25
+7a7 tmp{13|3A9} 10m10 12r21
+9i11 i{integer} 10r14 10r35
+17i7 somme{integer} 20m10 20r19 22r14
+19i11 i{integer} 20r38 20r44
+27a7 res{13|3A9} 30m10 33r14
+29i11 i{integer} 30r14
+39i11 i{integer} 40r25
+46i7 x{integer} 48m7 50r12
+46i10 y{integer} 49m7 50r16
+46i13 z{integer} 50m7 51m25 51r25
 

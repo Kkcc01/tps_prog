@@ -1,0 +1,28 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		11d8c4f3 NE OO SU
+W ensembles%s		ensembles.adb		ensembles.ali
+
+D ensembles.ads		20230113123145 42af162a ensembles%s
+D main.adb		20230113123228 5377d2d9 main%b
+D system.ads		20210520051134 a2da961d system%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [test1 ensembles 29 14 none]
+X 1 ensembles.ads
+1K9*ensembles 42e14 2|1w6 1r21
+3R9*ensemble 39e14 2|4r13
+29U14*test1 2|6s4
+X 2 main.adb
+3U11*Main 3b11 8l5 8t9
+4r4 e1{1|3R9} 6m10 6r10
+4r8 e2{1|3R9}
+

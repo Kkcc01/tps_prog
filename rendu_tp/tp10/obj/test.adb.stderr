@@ -1,0 +1,4 @@
+test.adb:35:30: error: expected type "Standard.Integer"
+test.adb:35:30: error: found package or procedure name
+test.adb:40:17: error: "n" is undefined
+test.adb:41:20: error: "m" is undefined

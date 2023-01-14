@@ -1,0 +1,2 @@
+pile_entier.adb:55:25: warning: "return" statement missing following this statement [enabled by default]
+pile_entier.adb:55:25: warning: Program_Error may be raised at run time [enabled by default]

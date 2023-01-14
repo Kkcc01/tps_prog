@@ -1,0 +1,29 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		2cc86f93 NE OO SU
+W pointeur2%s		pointeur2.adb		pointeur2.ali
+
+D main.adb		20230113120716 1b98917d main%b
+D pointeur2.ads		20230113120828 3750feee pointeur2%s
+D system.ads		20210520051134 a2da961d system%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r s matiere [main standard 3 11 none] [matiereIP pointeur2 22 9 none]
+G r c none [main standard 3 11 none] [test pointeur2 17 14 none]
+X 1 main.adb
+3U11*Main 3b11 8l5 8t9
+4r1 m{2|2R9} 6m6 6r6
+X 2 pointeur2.ads
+1K9*pointeur2 1|1w6 1r21 2|27e14
+2R9*MATIERE 1|4r5 2|25e14
+17U14*test 1|6s1
+

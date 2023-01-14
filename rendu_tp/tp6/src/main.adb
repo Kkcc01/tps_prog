@@ -3,11 +3,9 @@ with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with binaires; use binaires;
 
 procedure Main is
-   le_binaire : BINAIRE;
-   x : integer;
+   b1, b2, res : BINAIRE;
 begin
-   le_binaire := (0, 0, 0, 0, 0, 0, 0, 1);
-   afficher_bin(le_binaire);
-   x := bin_to_dec(le_binaire);
-   Put(x);
+   b1 := (0, 0, 0, 0, 1, 0, 0, 0);
+   b2 := (0, 0, 0, 0, 1, 0, 0, 0);
+   test(b1, b2, res);
 end Main;

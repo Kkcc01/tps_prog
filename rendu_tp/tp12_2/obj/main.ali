@@ -1,0 +1,32 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		dc90cca0 NE OO SU
+W liste_entier%s	liste_entier.adb	liste_entier.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D liste_entier.ads	20230113210226 be67a9a7 liste_entier%s
+D main.adb		20230113210136 62f76507 main%b
+D system.ads		20210520051134 a2da961d system%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [test liste_entier 61 14 none]
+X 3 liste_entier.ads
+1K9*liste_entier 72e17 4|1w6 1r24
+3P9*liste 4|4r15
+61U14*test 4|6s4
+X 4 main.adb
+3U11*Main 3b11 7l5 7t9
+4p4 la_liste{3|3P9} 6m9 6r9
+

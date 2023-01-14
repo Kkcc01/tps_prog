@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp16/tp16.gpr
+20230102153002 a4b310fc4cac20dd50ae056559ced321
+[BOUND OBJECT FILES]
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp16/obj/pile_entier.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp16/obj/calculatrice.o
+/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp16/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp16/obj/
+-L/home/kaycee/n7/cours/1A/s1/programmation/tp/rendu_tp/tp16/obj/
+-L/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/kaycee/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

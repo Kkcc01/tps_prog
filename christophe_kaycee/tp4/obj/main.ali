@@ -1,0 +1,29 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		f2b58639 NE OO SU
+W tri%s			tri.adb			tri.ali
+
+D main.adb		20230115102353 f05abef3 main%b
+D system.ads		20210520051134 a2da961d system%s
+D tri.ads		20230115102353 02ef38ca tri%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [afficher tri 8 14 none]
+G r c none [main standard 3 11 none] [tri_insertion tri 6 14 none]
+X 1 main.adb
+3U11*Main 3b11 11l5 11t9
+4a4 le_tab{3|4A9} 6m4 8r13 9m18 9r18 10r13
+X 3 tri.ads
+1K9*tri 1|1w6 1r15 3|10e8
+4A9*TAB_ENTIERS(integer)<integer> 1|4r13
+6U14*tri_insertion 1|9s4
+8U14*afficher 1|8s4 10s4
+

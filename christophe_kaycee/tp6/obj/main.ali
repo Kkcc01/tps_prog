@@ -1,0 +1,29 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		c0cb9619 NE OO SU
+W binaires%s		binaires.adb		binaires.ali
+
+D binaires.ads		20230113205308 fefa46dd binaires%s
+D main.adb		20230115102617 3e31d0c4 main%b
+D system.ads		20210520051134 a2da961d system%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r c none [main standard 4 11 none] [test binaires 15 14 none]
+X 1 binaires.ads
+1K9*binaires 17e13 2|1w6 1r20
+3A9*BINAIRE(integer)<integer> 2|6r18
+15U14*test 2|11s4
+X 2 main.adb
+4U11*Main 4b11 13l5 13t9
+6a4 b1{1|3A9} 9m4 11m9 11r9
+6a8 b2{1|3A9} 10m4 11m13 11r13
+6a12 res{1|3A9} 11m17
+

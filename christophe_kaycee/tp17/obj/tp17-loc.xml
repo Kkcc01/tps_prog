@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 25" line=" 37" >
+      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 48" line=" 143" >
+      <vfs_project>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/tp17.gpr</vfs_project>
+      <vfs_file>/home/kaycee/n7/cours/1A/s1/programmation/tp/tp17/src/arbre_gen.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

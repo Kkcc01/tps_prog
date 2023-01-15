@@ -1,0 +1,36 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		252f4b68 NE OO SU IL
+W bitmap%s		bitmap.adb		bitmap.ali
+
+D bitmap.ads		20230102141950 3d7dd031 bitmap%s
+D main.adb		20230115102742 18529b59 main%b
+D system.ads		20210520051134 a2da961d system%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [ajouter bitmap 20 14 none]
+G r c none [main standard 3 11 none] [afficher bitmap 12 14 none]
+G r c none [main standard 3 11 none] [supprimer bitmap 16 14 none]
+G r c none [main standard 3 11 none] [chercher bitmap 14 14 none]
+G r c none [main standard 3 11 none] [compacter bitmap 18 14 none]
+X 1 bitmap.ads
+1K9*bitmap 22e14 2|1w6 1r18
+6A9*TAB_BOOLEAN(boolean)<integer> 2|4r15
+12U14*afficher 2|13s4 17s4 21s4 26s4 29s4
+14U14*chercher 2|22s4 23s4 27s4
+16U14*supprimer 2|14s4 15s4 16s4 24s4 25s4
+18U14*compacter 2|28s4
+20U14*ajouter 2|8s4 9s4 10s4 11s4 12s4 18s4 19s4 20s4
+X 2 main.adb
+3U11*main 3b11 30l5 30t9
+4a4 tab_bool{1|6A9} 7m4
+

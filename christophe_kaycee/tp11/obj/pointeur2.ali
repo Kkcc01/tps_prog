@@ -1,0 +1,101 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pointeur2%b		pointeur2.adb		204c817c NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U pointeur2%s		pointeur2.ads		cfbc8ba4 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pointeur2.ads		20230115104203 cfbc8ba4 pointeur2%s
+D pointeur2.adb		20230115104252 b74f5611 pointeur2%b
+D system.ads		20210520051134 a2da961d system%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051132 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051132 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [initialiser pointeur2 6 14 none]
+G c Z s b [afficher pointeur2 12 14 none]
+G c Z s b [modifier pointeur2 18 14 none]
+G c Z s b [test pointeur2 24 14 none]
+G c Z s s [matiereIP pointeur2 29 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 16|2w10 2r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r27
+262U14*New_Line 16|25s7
+463U14*Put 16|15s7 16s7 18s7 19s7 41s29
+506U14*Put_Line 16|17s7 21s10 23s10
+X 15 pointeur2.ads
+1K9*pointeur2 27E9 34l5 34e14 16|4b14 60l5 60t14
+3R9*MATIERE 6r72 12r40 18r45 29c9 32e14 16|6r72 13r40 28r45 46r20
+6U14*initialiser 6>26 6=51 16|6b14 11l8 11t19 48s7 55s7
+6a26 nom_matiere{string} 16|6b26 10r27
+6r51 une_matiere{3R9} 16|6b51 8m7 9m7 10m7
+12U14*afficher 12>23 16|13b14 26l8 26t16 49s7 51s7 53s7 56s7
+12r23 une_matiere{3R9} 16|13b23 18r11 20r10 23r33
+18U14*modifier 18=24 18>54 16|28b14 42l8 42t16 50s7 52s7 57s7
+18r24 une_matiere{3R9} 16|28b24 34r13 35m13 37r13
+18i54 une_note{integer} 16|28b54 31r10 35r46 37r37
+24U14*test 16|45b14 58l8 58t12
+27P9 PINT(integer) 31r14
+30a7*code{string} 16|10m19 18r23
+31p7*note{27P9} 16|8m19 9m19 20r22 23r45 34r25 35m25 37r25
+X 16 pointeur2.adb
+29X7 note_negative 32r16 41r12
+46r7 mat1{15|3R9} 48m28 48r28 49r16 50m16 50r16 51r16 52m16 52r16 53r16
+46r13 mat2{15|3R9} 55m28 55r28 56r16 57m16 57r16
+
